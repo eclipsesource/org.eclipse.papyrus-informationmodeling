@@ -1,0 +1,11 @@
+target "Papyrus Neon" with source requirements
+
+location "http://download.eclipse.org/releases/neon/" eclipse-neon {
+ org.eclipse.platform.feature.group lazy
+ org.eclipse.rcp.feature.group lazy
+ org.eclipse.jdt.feature.group lazy
+ org.eclipse.equinox.p2.discovery.feature.feature.group lazy
+ org.eclipse.equinox.executable.feature.group lazy
+ org.eclipse.papyrus.sdk.feature.feature.group lazy
+ org.eclipse.ocl.uml.feature.group lazy
+}

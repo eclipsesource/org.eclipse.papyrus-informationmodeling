@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.eclipse.papyrus.information.modeling</groupId>
+		<artifactId>org.eclipse.papyrus.information.modeling.parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>org.eclipse.papyrus.information.modeling.releng</artifactId>
+	<packaging>pom</packaging>
+	<name>Information Modeling Releng</name>
+	<description>This plug-in contains the different modules relatives to the releng of Information Modeling : update site, feature, product, rcp.</description>
+	<modules>
+		<module>org.eclipse.papyrus.information.modeling.feature</module>
+	</modules>
+
+	<profiles>
+		<profile>
+			<id>product</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>org.eclipse.papyrus.information.modeling.p2</module>
+				<module>org.eclipse.papyrus.information.modeling.rcp</module>
+				<module>org.eclipse.papyrus.information.modeling.rcp.feature</module>
+				<module>org.eclipse.papyrus.information.modeling.product</module>
+			</modules>
+		</profile>
+	</profiles>
+</project>
