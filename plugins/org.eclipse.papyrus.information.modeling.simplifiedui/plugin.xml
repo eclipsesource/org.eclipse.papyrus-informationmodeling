@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+
+<!--
+  Copyright (c) 2016 EclipseSource Services GmbH.
+ 
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+ 
+  Contributors:
+  Martin Fleck (EclipseSource) mfleck@eclipsesource.com - Initial API and implementation
+-->
+
+<plugin>
+	<extension
+         point="org.eclipse.ui.activities">
+
+      <!-- Eclipse UI -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+            name="Hide Selected Eclipse UI Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ui.ide/org.eclipse.ui.Examples">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoLastEditPosition">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoPreviousAnnotation">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoNextAnnotation">
+      </activityPatternBinding>
+      
+      <!-- PDE -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hidePDE"
+            name="Hide Plugin Development (PDE) Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePDE"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.pde\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePDE"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.pde\.ds\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePDE"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.pde\.ua\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePDE"
+            isEqualityPattern="false"
+            pattern="org.eclipse.pde.api.tools.ui/org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview">
+      </activityPatternBinding>
+      
+      <!-- Debug -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideDebug"
+            name="Hide Debug Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideDebug"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.debug\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideDebug"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.debug\.ui\.examples\/.*">
+      </activityPatternBinding>
+      
+      <!-- JDT -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            name="Hide Java Development (JDT) Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.jdt\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.jdt\.debug\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.jdt\.junit\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt\.debug/debugModel">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt\..*/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt\.core/javanature">
+      </activityPatternBinding>
+      
+      
+      <!-- Xtend/Xtext/Xbase -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            name="Hide Xtend/Xtext/Xbase Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.xtend\.examples\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.xtend\.ide\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.xtext.ui.wizard.project.NewXtextProjectWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.xtext.ui.wizard.ecore2xtext.NewXtextProjectFromEcoreWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.projectwiz">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.ui.XtextCallHierarchy">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.xtext\.xtext\.ui\.examples\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui.graph/org.eclipse.xtext.xtext.ui.graph.view">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.XpandMainPreferencePage">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.MetamodelContributorsPropertyPage">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.EditorConfigurationPage">
+      </activityPatternBinding>
+       <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideXtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.BuilderPreferencePage">
+      </activityPatternBinding>
+      
+      <!-- Ant -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideAnt"
+            name="Hide Ant Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideAnt"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.ant\.ui\/.*">
+      </activityPatternBinding>
+      
+      <!-- Papyrus -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            name="Hide Selected Papyrus Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.properties/org.eclipse.papyrus.customization.properties.perspective">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.properties.generation/org.eclipse.papyrus.customization.properties.generation.wizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.viewpoints.configuration.editor/org.eclipse.papyrus.infra.viewpoints.configuration.presentation.ConfigurationModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.emf.facet.custom.metamodel.editor/org.eclipse.papyrus.emf.facet.custom.metamodel.v0_2_0.custom.presentation.CustomModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.papyrus\.infra\..*\/.*WizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.papyrus\..*\/org.eclipse.emf.ecore.Wizard.category.ID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.nattableconfiguration/org.eclipse.papyrus.infra.nattable.create.configuration.wizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.gmfdiag.css.properties/org.eclipse.papyrus.infra.gmfdiag.css.theme.menu">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.gmfdiag.css.properties/org.eclipse.papyrus.infra.gmfdiag.css.theme.define">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.gmfdiag.css.properties/org.eclipse.papyrus.infra.gmfdiag.css.theme.edit">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.viewpoints.policy/org.eclipse.papyrus.infra.viewpoints.policy.ViewpointExplorer">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.core.pluginexplorer/org.eclipse.papyrus.infra.core.pluginexplorer.PluginsContentView">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.properties/org.eclipse.papyrus.customization.properties.preview">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.uml.oclconstraintevaluation/org.eclipse.papyrus.uml.oclconstraintevaluation.OCLEvaluationView">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.papyrus\.uml\.alf\.ui\/.*">
+      </activityPatternBinding>
+      
+      <!-- Equinox -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideEquinox"
+            name="Hide Equinox Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEquinox"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\equinox\.p2\.ui\/.*">
+      </activityPatternBinding>
+      
+      <!-- EMF -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            name="Hide Selected EMF Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.emf\.codegen\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.emf\.codegen\.ecore\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.emf\.mapping\.ecore2xml\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.emf\.mwe2\.language\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.emf\.mwe\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.ecore.editor/org.eclipse.emf.ecore.presentation.EcoreModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.importer/org.eclipse.emf.importer.ui.EMFModelWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.importer/org.eclipse.emf.importer.ui.EMFProjectWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.mapping.ecore2ecore.editor/org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.mapping.ecore2ecore.editor/org.eclipse.emf.codegen.ecore.ui.mappingWizardCategory">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.mapping.ecore2xml.ui/org.eclipse.emf.codegen.ecore.ui.mappingWizardCategory">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.codegen.ecore.ui/org.eclipse.emf.codegen.ecore.ui.wizardCategory">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org.eclipse.uml2.uml.editor/org\.eclipse\.uml2\.uml\.editor\.presentation\.UMLModelWizardID">
+      </activityPatternBinding>
+      
+      <!-- External Tools -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideExternalTools"
+            name="Hide External Tools Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideExternalTools"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.ui\.externaltools\/.*">
+      </activityPatternBinding>
+      
+      <!-- OCL -->
+      <activity
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            name="Hide OCL Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.ocl\.examples\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.completeocl.ui/org.eclipse.ocl.xtext.completeocl.ui.CompleteOCLFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclinecore.ui/org.eclipse.ocl.xtext.oclinecore.ui.OCLinEcoreFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclinecore.ui/org.eclipse.ocl.xtext.oclinecore.ui.EcoreWithOCLFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclstdlib.ui/org.eclipse.ocl.xtext.oclstdlib.ui.OCLstdlibFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.base.ui/org.eclipse.ocl.ui.wizards">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideOCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.examples.emf.validation.validity.ui/org.eclipse.ocl.examples.emf.validation.validity.ui.validity">
+      </activityPatternBinding>
+   </extension>
+ <extension
+       point="org.eclipse.ui.perspectiveExtensions">
+    <perspectiveExtension
+          targetID="*">
+       <hiddenMenuItem
+             id="org.eclipse.ui.run">
+       </hiddenMenuItem>
+    </perspectiveExtension>
+ </extension>
+ <extension
+       point="org.eclipse.ui.perspectiveExtensions">
+    <perspectiveExtension
+          targetID="org.eclipse.papyrus.infra.core.perspective">
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.infra.emf.readonly.EnableWriteCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.infra.discovery.ui.menu.toolbars.discoveryCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.editor.previousTabCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.editor.nextTabCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.infra.viewpoints.policy.toolbar.diagrams">
+       </hiddenToolBarItem>
+    </perspectiveExtension>
+ </extension>
+</plugin>

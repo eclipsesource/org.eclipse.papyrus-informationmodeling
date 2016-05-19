@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel"
+    xmi:id="_-5Z5sN90EeOzMY8AIRUeqQ"
+    label="New Relationship">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      xmi:id="_RzWnQBZUEeSzr5rzfsl7Yg"
+      label="Association"
+      elementTypeIdRef="org.eclipse.papyrus.uml.Association"
+      displayAllRoles="false"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="AssociationClass"
+      elementTypeIdRef="org.eclipse.papyrus.uml.AssociationClass"
+      displayAllRoles="false"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      xmi:id="_RD-_0BZUEeSzr5rzfsl7Yg"
+      label="Dependency"
+      elementTypeIdRef="org.eclipse.papyrus.uml.Dependency"
+      displayAllRoles="false"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      xmi:id="_RD-_0RZUEeSzr5rzfsl7Yg"
+      label="Generalization"
+      elementTypeIdRef="org.eclipse.papyrus.uml.Generalization"
+      displayAllRoles="false"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="PackageImport"
+      elementTypeIdRef="org.eclipse.papyrus.uml.PackageImport"
+      displayAllRoles="false"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="Realization"
+      elementTypeIdRef="org.eclipse.papyrus.uml.Realization"
+      displayAllRoles="false"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="Usage"
+      elementTypeIdRef="org.eclipse.papyrus.uml.Usage"
+      displayAllRoles="false"/>
+</ElementCreationMenuModel:Folder>

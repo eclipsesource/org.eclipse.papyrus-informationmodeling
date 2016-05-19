@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+	gradient: none;
+	transparency: 0;
+	lineWidth: 1px;
+	elementIcon: true;
+	shadow: true;
+	shadowWidth: 2px;
+	shadowColor: darkgray;
+	radiusWidth: 4px;
+	radiusHeight: 4px;
+}
+
+InstanceSpecification {
+	fillColor: #EDFFFE;
+	lineColor: #10C4AD;	
+}
+
+AssociationClass > Compartment,
+Class > Compartment,
+DataType > Compartment {
+	visible: false;
+}
+
+AssociationClass > Compartment[kind="attributes"],
+Class > Compartment[kind="attributes"],
+DataType > Compartment[kind="attributes"] {
+    visible: true;
+    showTitle: false;
+}
+
+Comment {
+	fillColor: #FFFDDB;
+	shadow: false;
+	fontSize: 5px;
+}
+
+Constraint {
+	fillColor: #FFEBF1;
+	lineColor: #FFEBF1;
+	shadow: false;
+}
+
+AssociationClass,
+Class,
+DataType {
+	fillColor: #EDFBFF;
+	lineColor: #109DC4;
+}
+
+Enumeration {
+	fillColor: #FFF0D6;
+	lineColor: #FFA200;
+}
+
+TBD {
+	fillColor: #EDFFF0;
+	lineColor: #10C452;
+}
+
+Package {
+	fillColor: #F2F8FA;
+	lineColor: #A9C8D4;
+}
+
+Property {
+	elementIcon: true;
+	maskLabel: name type multiplicity;
+}
+
+Slot {
+	elementIcon: true;
+}
+
+Association > Label {
+	elementIcon: false;
+}
+
+Association > Label:sourceMultiplicity {
+	maskLabel: multiplicity;
+}
+
+Association > Label:targetMultiplicity {
+	maskLabel: multiplicity;
+}
+ 
+Association > Label:sourceRole {
+	maskLabel: name;
+}
+
+Association > Label:targetRole {
+	maskLabel: name;
+}
+
+Association > Label:name {
+	visible:false;
+}
+
+AssociationClass {
+	lineColor: black;
+}
+
+Usage {
+	lineStyle: dashed;
+}
