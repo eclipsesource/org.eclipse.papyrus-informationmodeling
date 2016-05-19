@@ -1,0 +1,7 @@
+a#im-new-project img { 
+	background-image : url(../../images/topiclabel/papyrus.png);
+}
+
+a#im-new-project:hover img { 
+	background-image : url(../../images/papyrus_hover.png);
+}

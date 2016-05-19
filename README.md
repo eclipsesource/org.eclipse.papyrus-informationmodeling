@@ -1,6 +1,11 @@
 # Information Modeling
 A Papyrus DSML for Information Modeling
 
+## Travis CI
+
+* master: [![Build Status](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling.svg?branch=master)](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling)
+* mf-develop: [![Build Status](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling.svg?branch=mf-develop)](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling)
+
 ### Repository structure ###
 
 This repository is organized around logical software components:
@@ -33,13 +38,14 @@ It is possible that you encounter some difficulties if you are working with seve
 So you can force tycho to download the right version by using:
 
 ```
-mvn clean install -Dtycho.localArtifacts=ignore 
+mvn clean install -Dtycho.localArtifacts=ignore
+```
 
 ### Building against a specific Eclipse Release ###
 
 By default information.modeling is build against Eclipse Neon.
 
-### Building for Eclipser server ###
+### Building for Eclipse server ###
 
 If you want to pack and sign the project, you have to use the following profiles:
 
@@ -53,7 +59,8 @@ and
 -Peclipse-sign
 ```
 
-## Hudson CI 
+## Hudson CI
+
 Build Status : ![Nightly Build Status](https://hudson.eclipse.org/papyrus/view/InformationModeling/job/papyrus-informationmodeling-neon/)
 
 ### How to change version ###
@@ -63,7 +70,7 @@ mvn -Dtycho.mode=maven org.eclipse.tycho:tycho-versions-plugin:set-version -Dnew
 ```
 Manual operation : change all Require-Bundle from bundle-version="*old-version*" to bundle-version="*new-version*"
 
-Verify that the *new version* is present in : 
- - All Manifest.MF 
+Verify that the *new version* is present in: 
+ - All Manifest.MF
  - the root pom.xml
  - in category.xml

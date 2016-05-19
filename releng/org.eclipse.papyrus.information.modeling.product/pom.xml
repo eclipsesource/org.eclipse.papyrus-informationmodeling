@@ -35,7 +35,7 @@
 					<products>
 						<product>
 							<id>${product-id}</id>
-							<rootFolder>papyrusInformationModeling</rootFolder>
+							<rootFolder>papyrus-im</rootFolder>
 						</product>
 					</products>
 				</configuration>

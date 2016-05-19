@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<feature id="org.eclipse.papyrus.information.modeling.feature" url="features/org.eclipse.papyrus.information.modeling.feature_0.0.1.qualifier.jar" version="0.0.1.qualifier">
-		<category name="org.eclipse.papyrus.category"/>
-	</feature>
-	<feature id="org.eclipse.papyrus.information.modeling.feature.source" url="features/org.eclipse.papyrus.information.modeling.feature.source_0.0.1.qualifier.jar" version="0.0.1.qualifier">
-		<category name="org.eclipse.papyrus.category"/>
-	</feature>
-	<category-def label="Papyrus Information Modeling Category" name="org.eclipse.papyrus.category">
-		<description>Papyrus Information Modeling Category</description>
-	</category-def>
+   <feature url="features/org.eclipse.papyrus.information.modeling.feature_0.0.1.qualifier.jar" id="org.eclipse.papyrus.information.modeling.feature" version="0.0.1.qualifier">
+      <category name="org.eclipse.papyrus.information.modeling.category"/>
+   </feature>
+   <feature url="features/org.eclipse.papyrus.information.modeling.feature.source_0.0.1.qualifier.jar" id="org.eclipse.papyrus.information.modeling.feature.source" version="0.0.1.qualifier">
+      <category name="org.eclipse.papyrus.information.modeling.category"/>
+   </feature>
+   <category-def name="org.eclipse.papyrus.information.modeling.category" label="Papyrus Information Modeling">
+      <description>
+         Information modeling using UML class diagrams based on Papyrus.
+      </description>
+   </category-def>
 </site>

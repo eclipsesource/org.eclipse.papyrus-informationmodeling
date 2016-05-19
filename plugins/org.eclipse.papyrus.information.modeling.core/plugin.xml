@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+
+<!--
+  Copyright (c) 2016 CEA LIST.
+ 
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+ 
+  Contributors:
+  Benoit Maggi (CEA LIST) benoit.maggi@cea.fr - Initial API and implementation
+-->
+<plugin>
+	<!--
+    <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
+	     <diagramCategory
+            class="org.eclipse.papyrus.information.modeling.core.command.CreateInformationModelCommand"
+            description="Information Modeling diagrams"
+            id="InformationModeling"
+            label="InformationModeling">
+	     </diagramCategory>
+    </extension>
+	-->
+   <extension
+         point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
+      <configuration
+            file="resource/configuration/InformationModeling.configuration"
+            priority="30">
+      </configuration>
+   </extension>
+   
+   <extension
+         point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel
+            model="resource/newchild/IMNewChild.creationmenumodel">
+      </menuCreationModel>
+      <menuCreationModel
+            model="resource/newchild/IMNewEdge.creationmenumodel">
+      </menuCreationModel>
+   </extension>
+   <!--
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.css.theme">
+      <themeDefinition
+            icon="icons/papyrus.png"
+            id="org.eclipse.papyrus.information.modeling.core.im_theme"
+            label="Information Modeling Theme">
+      </themeDefinition>
+      <themeContribution
+            id="org.eclipse.papyrus.information.modeling.core.im_theme">
+         <stylesheet
+               stylesheetPath="resource/theme/im_theme.css">
+         </stylesheet>
+      </themeContribution>
+   </extension>
+   -->
+   <extension
+         name="UML Subset for Information Modeling"
+         point="org.eclipse.papyrus.infra.properties.contexts">
+		<context appliedByDefault="true" contextModel="resource/context/IM-UML.ctx" isCustomizable="true"/>
+	</extension>
+
+</plugin>

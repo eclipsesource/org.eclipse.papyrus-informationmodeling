@@ -9,11 +9,13 @@
 	<name>Information Modeling</name>
 	<description>A Papyrus DSML for Information Modeling</description>
 	<url>https://eclipse.org/papyrus/</url>
-	<inceptionYear>2015</inceptionYear>
+	<inceptionYear>2016</inceptionYear>
 
 	<modules>
 		<module>targetplatform</module>
-		<module>org.eclipse.papyrus.information.modeling.core</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.core</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.simplifiedui</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.intro</module>
 		<module>releng</module>
 	</modules>
 	<properties>
@@ -265,6 +267,10 @@
 						<configuration>
 							<excludes>
 								<plugin id="org.eclipse.papyrus.information.modeling.rcp" />
+								<plugin id="org.apache.batik.pdf" />
+								<plugin id="org.eclipse.wst.common.project.facet.core" />
+								<plugin id="org.eclipse.emf.compare.rcp" />
+								<plugin id="org.eclipse.emf.compare.rcp.ui" />
 							</excludes>
 						</configuration>
 					</execution>

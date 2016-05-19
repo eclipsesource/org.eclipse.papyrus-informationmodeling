@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_oa8yUBP7EeSS0oyATXohNA" defaultStakeholder="_stSKMBP7EeSS0oyATXohNA">
+  <stakeholders xmi:id="_stSKMBP7EeSS0oyATXohNA" name="Information Modeler" viewpoints="_3T-cEBP7EeSS0oyATXohNA"/>
+  <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_3T-cEBP7EeSS0oyATXohNA" name="Information Modeling Viewpoint">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_9xMXIBP7EeSS0oyATXohNA" name="UML Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA" customPalette="" customStyle="platform:/plugin/org.eclipse.papyrus.information.modeling.core/resource/style/im_style.css">
+      <modelRules xmi:id="_Q9t2YBP8EeSS0oyATXohNA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_URJ9EBP8EeSS0oyATXohNA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        <selectDiagramRoot xmi:id="_4rbVICG8EeaTOvmjRmNNwg"/>
+      </owningRules>
+      <owningRules xmi:id="_2Y544CG8EeaTOvmjRmNNwg">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </owningRules>
+      <childRules xmi:id="_dwcpMBZFEeSzr5rzfsl7Yg"/>
+      <paletteRules xmi:id="_cLB5EB3SEeaWluI_M9CcJQ" element="clazz.tool.comment"/>
+      <paletteRules xmi:id="_rGNbwB3OEeaWluI_M9CcJQ" element="clazz.tool.constraint"/>
+      <paletteRules xmi:id="_h1O-oB3ZEeaWluI_M9CcJQ" element="clazz.tool.package"/>
+      <paletteRules xmi:id="_iHPUoB3ZEeaWluI_M9CcJQ" element="clazz.tool.packageimport"/>
+      <paletteRules xmi:id="_ZWzcgB5XEeaKs_GrNRbBjw" element="clazz.tool.datatype"/>
+      <paletteRules xmi:id="_Zv4D0B5XEeaKs_GrNRbBjw" element="clazz.tool.class"/>
+      <paletteRules xmi:id="_dUXeQB5XEeaKs_GrNRbBjw" element="clazz.tool.associationclass"/>
+      <paletteRules xmi:id="_eH07gB5XEeaKs_GrNRbBjw" element="clazz.tool.property"/>
+      <paletteRules xmi:id="_hLLXwB5XEeaKs_GrNRbBjw" element="clazz.tool.enumeration"/>
+      <paletteRules xmi:id="_hLLXwR5XEeaKs_GrNRbBjw" element="clazz.tool.enumerationliteral"/>
+      <paletteRules xmi:id="_ixbhIB3ZEeaWluI_M9CcJQ" element="clazz.tool.realization"/>
+      <paletteRules xmi:id="_i2Y5oB3ZEeaWluI_M9CcJQ" element="clazz.tool.generalization"/>
+      <paletteRules xmi:id="_i7p0IB3ZEeaWluI_M9CcJQ" element="clazz.tool.association"/>
+      <paletteRules xmi:id="_JaaZEB3aEeaWluI_M9CcJQ" element="clazz.tool.dependency"/>
+      <paletteRules xmi:id="_J3Yo8B3aEeaWluI_M9CcJQ" element="clazz.tool.usage"/>
+      <paletteRules xmi:id="_KSaYEB3aEeaWluI_M9CcJQ" element="clazz.tool.instancespecification"/>
+      <paletteRules xmi:id="_KW1lEB3aEeaWluI_M9CcJQ" element="clazz.tool.slot"/>
+      <paletteRules xmi:id="_KaNpMB3aEeaWluI_M9CcJQ" element="clazz.tool.instancevalue"/>
+      <paletteRules xmi:id="_Zu7qEB3SEeaWluI_M9CcJQ" permit="false" element="clazz.tool.*"/>
+      <paletteRules xmi:id="_JR-5AB3eEeaWluI_M9CcJQ" permit="false" element="createTimeObservation22CreationTool"/>
+      <paletteRules xmi:id="_Ri5mUB3eEeaWluI_M9CcJQ" permit="false" element="createDurationObservation7CreationTool"/>
+    </modelKinds>
+  </viewpoints>
+  <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <categories xmi:id="_vUL7ABP7EeSS0oyATXohNA" name="uml"/>
+</configuration:PapyrusConfiguration>
