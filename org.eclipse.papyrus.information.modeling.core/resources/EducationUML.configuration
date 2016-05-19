@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_oa8yUBP7EeSS0oyATXohNA" defaultStakeholder="_dBfdEKCgEeSNKqx5mKuydQ">
+  <stakeholders xmi:id="_dBfdEKCgEeSNKqx5mKuydQ" name="Student" viewpoints="_WwNWIKCpEeSNKqx5mKuydQ _3T-cEBP7EeSS0oyATXohNA"/>
+  <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_3T-cEBP7EeSS0oyATXohNA" name="Basics Education UML Viewpoint">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_CejGsP1iEeScZ-AwGZ7g0g" name="Basic UML ClassDiagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA">
+      <modelRules xmi:id="_CejGsf1iEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_CejGsv1iEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_CejGs_1iEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_CejGtP1iEeScZ-AwGZ7g0g" element="clazz.tool.class"/>
+      <paletteRules xmi:id="_CejGtf1iEeScZ-AwGZ7g0g" element="clazz.tool.association"/>
+      <paletteRules xmi:id="_CejGtv1iEeScZ-AwGZ7g0g" element="clazz.tool.property"/>
+      <paletteRules xmi:id="_CejGt_1iEeScZ-AwGZ7g0g" element="clazz.tool.operation"/>
+      <paletteRules xmi:id="_CejGuP1iEeScZ-AwGZ7g0g" element="clazz.tool.comment"/>
+      <paletteRules xmi:id="_ElT-4P1iEeScZ-AwGZ7g0g" element="clazz.tool.generalization"/>
+      <paletteRules xmi:id="_ElT-4f1iEeScZ-AwGZ7g0g" element="clazz.tool.associationclass"/>
+      <paletteRules xmi:id="_ElT-4v1iEeScZ-AwGZ7g0g" element="clazz.tool.datatype"/>
+      <paletteRules xmi:id="_ElT-4_1iEeScZ-AwGZ7g0g" element="clazz.tool.dependency"/>
+      <paletteRules xmi:id="_ElT-5P1iEeScZ-AwGZ7g0g" element="clazz.tool.enumeration"/>
+      <paletteRules xmi:id="_Evhq0P1iEeScZ-AwGZ7g0g" element="clazz.tool.enumerationliteral"/>
+      <paletteRules xmi:id="_Evhq0f1iEeScZ-AwGZ7g0g" element="clazz.tool.interface"/>
+      <paletteRules xmi:id="_Evhq0v1iEeScZ-AwGZ7g0g" element="clazz.tool.package"/>
+      <paletteRules xmi:id="_CejGuf1iEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_75O3MKCpEeSNKqx5mKuydQ" name="Basic UML UseCase Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.usecase/icons/obj16/Diagram_UseCase.gif" implementationID="UseCase">
+      <modelRules xmi:id="_3VnsoKCqEeSNKqx5mKuydQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_5QwjoKCqEeSNKqx5mKuydQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_6x-ewKCqEeSNKqx5mKuydQ"/>
+      <paletteRules xmi:id="_57UuIKCrEeSNKqx5mKuydQ" element="usecase.tool.include"/>
+      <paletteRules xmi:id="_jImkQKCrEeSNKqx5mKuydQ" element="usecase.tool.extend"/>
+      <paletteRules xmi:id="_RFCbsKCsEeSNKqx5mKuydQ" element="usecase.tool.actor"/>
+      <paletteRules xmi:id="_Z02rgKCsEeSNKqx5mKuydQ" element="usecase.tool.usecase"/>
+      <paletteRules xmi:id="_5a_BMKCrEeSNKqx5mKuydQ" permit="false" element="usecase.tool.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_2qh0IP1jEeScZ-AwGZ7g0g" name="Basic UML Sequence Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/icons/obj16/Diagram_Sequence.gif" implementationID="PapyrusUMLSequenceDiagram">
+      <modelRules xmi:id="_2qh0If1jEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_2qh0Iv1jEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_2qh0I_1jEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_g-Jf4P1mEeScZ-AwGZ7g0g" element="createEdges2Group"/>
+      <paletteRules xmi:id="_q9ZXQP1mEeScZ-AwGZ7g0g" element="createNodes1Group"/>
+      <paletteRules xmi:id="_2qh0JP1jEeScZ-AwGZ7g0g" element="createLifeline1CreationTool"/>
+      <paletteRules xmi:id="_2qh0Jf1jEeScZ-AwGZ7g0g" element="createMessageSyncTool"/>
+      <paletteRules xmi:id="_2qh0Jv1jEeScZ-AwGZ7g0g" element="createMessageAsyncTool"/>
+      <paletteRules xmi:id="_2qh0J_1jEeScZ-AwGZ7g0g" element="createMessageReplyTool"/>
+      <paletteRules xmi:id="_QVWMgP1kEeScZ-AwGZ7g0g" element="createMessageCreateTool"/>
+      <paletteRules xmi:id="_QlLYQP1kEeScZ-AwGZ7g0g" element="createMessageDeleteTool"/>
+      <paletteRules xmi:id="_QrteEP1kEeScZ-AwGZ7g0g" element="createMessageLostTool"/>
+      <paletteRules xmi:id="_QxDREP1kEeScZ-AwGZ7g0g" element="createMessageFoundTool"/>
+      <paletteRules xmi:id="_ZBdBAP1kEeScZ-AwGZ7g0g" element="createCoRegion11CreationTool"/>
+      <paletteRules xmi:id="_LW3D0P1lEeScZ-AwGZ7g0g" permit="false" element="create*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_MkIsEP1hEeScZ-AwGZ7g0g" name="Basic UML StateMachine" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/icons/obj16/Diagram_StateMachine.gif" implementationID="PapyrusUMLStateMachineDiagram">
+      <modelRules xmi:id="_MkIsEf1hEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_MkIsEv1hEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_MkIsE_1hEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_MkIsFP1hEeScZ-AwGZ7g0g" element="statemachine.createNodesGroup.region"/>
+      <paletteRules xmi:id="_MkIsFf1hEeScZ-AwGZ7g0g" element="statemachine.createNodesGroup.state"/>
+      <paletteRules xmi:id="_MkIsFv1hEeScZ-AwGZ7g0g" element="statemachine.createNodesGroup.initial"/>
+      <paletteRules xmi:id="_MkIsF_1hEeScZ-AwGZ7g0g" element="statemachine.createNodesGroup.finalstate"/>
+      <paletteRules xmi:id="_zRGFEP1hEeScZ-AwGZ7g0g" element="statemachine.createEdgesGroup.transition"/>
+      <paletteRules xmi:id="_MkIsGP1hEeScZ-AwGZ7g0g" permit="false" element="statemachine.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="__4UnIP1oEeScZ-AwGZ7g0g" name="Basic UML Activity" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.activity/icons/obj16/Diagram_Activity.gif" implementationID="PapyrusUMLActivityDiagram">
+      <modelRules xmi:id="__4UnIf1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="__4UnIv1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="__4UnI_1oEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_5Tq8cP1qEeSUeftXTjcdyA" element="activity.nodes"/>
+      <paletteRules xmi:id="__4UnJP1oEeScZ-AwGZ7g0g" element="activity.nodes.activity"/>
+      <paletteRules xmi:id="_oKhNsP1rEeSUeftXTjcdyA" element="activity.nodes.controlnodes"/>
+      <paletteRules xmi:id="__4UnJf1oEeScZ-AwGZ7g0g" element="activity.nodes.controlnodes.initialnode"/>
+      <paletteRules xmi:id="__4UnJv1oEeScZ-AwGZ7g0g" element="activity.nodes.controlnodes.activityfinal"/>
+      <paletteRules xmi:id="_60fO8P1qEeSUeftXTjcdyA" element="activity.edges"/>
+      <paletteRules xmi:id="__4UnJ_1oEeScZ-AwGZ7g0g" element="activity.edges.controlflow"/>
+      <paletteRules xmi:id="__4UnKf1oEeScZ-AwGZ7g0g" permit="false" element="activity.*"/>
+    </modelKinds>
+  </viewpoints>
+  <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_WwNWIKCpEeSNKqx5mKuydQ" name="Initial Education UML Viewpoint">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_SA2IMP1oEeScZ-AwGZ7g0g" name="Initial UML ClassDiagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" parent="_CejGsP1iEeScZ-AwGZ7g0g" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA">
+      <modelRules xmi:id="_SA2IMf1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_SA2IMv1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_SA2IM_1oEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_SA2IOf1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.generalization"/>
+      <paletteRules xmi:id="_SA2IOv1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.associationclass"/>
+      <paletteRules xmi:id="_SA2IO_1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.datatype"/>
+      <paletteRules xmi:id="_SA2IPP1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.dependency"/>
+      <paletteRules xmi:id="_SA2IPf1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.enumeration"/>
+      <paletteRules xmi:id="_SA2IPv1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.enumerationliteral"/>
+      <paletteRules xmi:id="_SA2IP_1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.interface"/>
+      <paletteRules xmi:id="_SA2IQP1oEeScZ-AwGZ7g0g" permit="false" element="clazz.tool.package"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_d-6jEKCqEeSNKqx5mKuydQ" name="Initial UML UseCase Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.usecase/icons/obj16/Diagram_UseCase.gif" parent="_75O3MKCpEeSNKqx5mKuydQ" implementationID="UseCase" customStyle="">
+      <modelRules xmi:id="_qAsA8KCsEeSNKqx5mKuydQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_qAsA8aCsEeSNKqx5mKuydQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_qAsA8qCsEeSNKqx5mKuydQ"/>
+      <paletteRules xmi:id="_qAsA96CsEeSNKqx5mKuydQ" permit="false" element="usecase.tool.extend"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_deOKcP1oEeScZ-AwGZ7g0g" name="Initial UML Sequence Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/icons/obj16/Diagram_Sequence.gif" parent="_2qh0IP1jEeScZ-AwGZ7g0g" implementationID="PapyrusUMLSequenceDiagram">
+      <modelRules xmi:id="_deOKcf1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_deOKcv1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_deOKc_1oEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_deOKdP1oEeScZ-AwGZ7g0g" element="createEdges2Group"/>
+      <paletteRules xmi:id="_deOKdf1oEeScZ-AwGZ7g0g" element="createNodes1Group"/>
+      <paletteRules xmi:id="_deOKdv1oEeScZ-AwGZ7g0g" element="createLifeline1CreationTool"/>
+      <paletteRules xmi:id="_deOKd_1oEeScZ-AwGZ7g0g" element="createMessageSyncTool"/>
+      <paletteRules xmi:id="_deOKeP1oEeScZ-AwGZ7g0g" element="createMessageAsyncTool"/>
+      <paletteRules xmi:id="_deOKef1oEeScZ-AwGZ7g0g" element="createMessageReplyTool"/>
+      <paletteRules xmi:id="_deOKev1oEeScZ-AwGZ7g0g" element="createMessageCreateTool"/>
+      <paletteRules xmi:id="_deOKe_1oEeScZ-AwGZ7g0g" element="createMessageDeleteTool"/>
+      <paletteRules xmi:id="_deOKfP1oEeScZ-AwGZ7g0g" element="createMessageLostTool"/>
+      <paletteRules xmi:id="_deOKff1oEeScZ-AwGZ7g0g" element="createMessageFoundTool"/>
+      <paletteRules xmi:id="_deOKfv1oEeScZ-AwGZ7g0g" element="createCoRegion11CreationTool"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_r_0ysP1oEeScZ-AwGZ7g0g" name="Initial UML StateMachine" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/icons/obj16/Diagram_StateMachine.gif" implementationID="PapyrusUMLStateMachineDiagram">
+      <modelRules xmi:id="_r_0ysf1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_r_0ysv1oEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_r_0ys_1oEeScZ-AwGZ7g0g"/>
+      <paletteRules xmi:id="_r_0ytP1oEeScZ-AwGZ7g0g" permit="false" element="statemachine.createNodesGroup.region"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_VRtmkP1pEeScZ-AwGZ7g0g" name="Initial UML Activity" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.activity/icons/obj16/Diagram_Activity.gif" parent="__4UnIP1oEeScZ-AwGZ7g0g" implementationID="PapyrusUMLActivityDiagram">
+      <modelRules xmi:id="_VRtmkf1pEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_VRtmkv1pEeScZ-AwGZ7g0g">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_VRtmk_1pEeScZ-AwGZ7g0g"/>
+    </modelKinds>
+  </viewpoints>
+  <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <categories xmi:id="_vUL7ABP7EeSS0oyATXohNA" name="uml"/>
+</configuration:PapyrusConfiguration>
