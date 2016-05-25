@@ -9,7 +9,7 @@
 	<name>Information Modeling</name>
 	<description>A Papyrus DSML for Information Modeling</description>
 	<url>https://eclipse.org/papyrus/</url>
-	<inceptionYear>2015</inceptionYear>
+	<inceptionYear>2016</inceptionYear>
 
 	<modules>
 		<module>targetplatform</module>
