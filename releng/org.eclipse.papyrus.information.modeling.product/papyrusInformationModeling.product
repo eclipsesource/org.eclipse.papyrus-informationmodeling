@@ -22,8 +22,12 @@ Apache Software Foundation http://www.apache.org/
    <launcherArgs>
       <programArgs>-showsplash org.eclipse.papyrus.information.modeling.rcp --launcher.XXMaxPermSize 256m
       </programArgs>
+      <programArgsLin>--launcher.GTK_version 2
+      </programArgsLin>
       <vmArgs>-Xms256m -Xmx1024m -XX:MaxPermSize=256m
       </vmArgs>
+      <vmArgsLin>-Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
+      </vmArgsLin>
       <vmArgsMac>-Xdock:icon=../Resources/papyrus.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
