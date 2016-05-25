@@ -1,3 +1,8 @@
-script: mvn clean install -Pproduct
 language: java
-sudo: false
+jdk:
+  - oraclejdk8
+
+before_script:
+  - cd org.eclipse.e4.tutorial.contacts.build.tycho
+
+script: mvn clean install -Pproduct
