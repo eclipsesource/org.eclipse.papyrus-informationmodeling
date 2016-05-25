@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+	<extensionContent id="org.eclipse.papyrus.information.modeling.intro.overview" name="Papyrus Development" alt-style="css/overview.properties" style="css/overview.css" path="overview/@">
+		<group style-id="content-group" id="org.eclipse.information.modeling.intro.overview-group">
+    		<link label="New Papyrus Project" 
+ 	    		url="http://org.eclipse.ui.intro/runAction?pluginId=org.eclipse.papyrus.uml.diagram.wizards&#38;class=org.eclipse.papyrus.uml.diagram.wizards.NewProjectAction"    	
+    			id="im-new-project" style-id="content-link">
+        		 <text>Start with the creation of a new Papyrus Project</text> 
+            </link>    		
+		</group>
+	</extensionContent>
+</introContent>

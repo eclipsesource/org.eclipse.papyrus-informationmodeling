@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Create a Papyrus UML Class Diagram">
+      
+      <intro>
+      <description>
+         <b>Intro</b>
+      </description>
+   </intro>
+   <item
+         title="Open Papyrus Perspective">
+      <description>
+         <b>Open Papyrus Perspective</b>
+      </description>
+      <command
+            required="true"
+            serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.papyrus.infra.core.perspective)"/>
+   </item>
+   <item
+         title="Create new Papyrus Project">
+      <description>
+         <b>Create new Papyrus Project</b>
+      </description>
+      <command
+            required="true"
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.papyrus.uml.diagram.wizards.createproject)"/>
+   </item>
+
+</cheatsheet>
