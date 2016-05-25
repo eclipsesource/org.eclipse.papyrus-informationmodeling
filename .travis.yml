@@ -1,8 +1,18 @@
+sudo: false
 language: java
+cache:
+  directories:
+   - $HOME/.m2
 jdk:
   - oraclejdk8
-
+env:
+  global:
+   - DISPLAY=:99.0
+ before_install:
+  - sh -e /etc/init.d/xvfb start - sleep 10
 before_script:
-  - cd org.eclipse.e4.tutorial.contacts.build.tycho
+  - cd org.eclipse.papyrus-informationmodeling.build.tycho
 
-script: mvn clean install -Pproduct
+script:
+  - cd org.eclipse.papyrus-informationmodeling.build.tycho
+  - mvn clean install -Pproduct
