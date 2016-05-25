@@ -13,7 +13,9 @@
 
 	<modules>
 		<module>targetplatform</module>
-		<module>org.eclipse.papyrus.information.modeling.core</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.core</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.ui</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.wizards</module>
 		<module>releng</module>
 	</modules>
 	<properties>
@@ -265,6 +267,10 @@
 						<configuration>
 							<excludes>
 								<plugin id="org.eclipse.papyrus.information.modeling.rcp" />
+								<plugin id="org.apache.batik.pdf" />
+								<plugin id="org.eclipse.wst.common.project.facet.core" />
+								<plugin id="org.eclipse.emf.compare.rcp" />
+								<plugin id="org.eclipse.emf.compare.rcp.ui" />
 							</excludes>
 						</configuration>
 					</execution>
