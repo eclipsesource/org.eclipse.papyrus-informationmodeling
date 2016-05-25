@@ -16,9 +16,5 @@ env:
 before_install:
   - sh -e /etc/init.d/xvfb start - sleep 10
 
-before_script:
-  - cd org.eclipse.papyrus-informationmodeling.build.tycho
-
 script:
-  - cd org.eclipse.papyrus-informationmodeling.build.tycho
   - mvn clean install -Pproduct
