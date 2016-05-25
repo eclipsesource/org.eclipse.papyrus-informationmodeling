@@ -1,6 +1,11 @@
 # Information Modeling
 A Papyrus DSML for Information Modeling
 
+## Travis CI
+
+* master: [![Build Status](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling.svg?branch=master)](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling)
+* mf-develop: [![Build Status](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling.svg?branch=mf-develop)](https://travis-ci.org/eclipsesource/org.eclipse.papyrus-informationmodeling)
+
 ### Repository structure ###
 
 This repository is organized around logical software components:
@@ -55,6 +60,7 @@ and
 ```
 
 ## Hudson CI
+
 Build Status : ![Nightly Build Status](https://hudson.eclipse.org/papyrus/view/InformationModeling/job/papyrus-informationmodeling-neon/)
 
 ### How to change version ###
