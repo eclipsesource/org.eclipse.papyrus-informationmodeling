@@ -45,6 +45,8 @@ Apache Software Foundation http://www.apache.org/
       </win>
    </launcher>
 
+   <intro introId="org.eclipse.ui.intro.universal"/>
+
    <vm>
       <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</windows>
    </vm>
@@ -182,42 +184,137 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </plugins>
 
    <features>
-      <feature id="org.eclipse.platform"/>
+      <feature id="org.eclipse.draw2d"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.ecf.core.feature"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
+      <feature id="org.eclipse.emf"/>
+      <feature id="org.eclipse.emf.codegen"/>
+      <feature id="org.eclipse.emf.codegen.ecore"/>
+      <feature id="org.eclipse.emf.codegen.ecore.ui"/>
+      <feature id="org.eclipse.emf.codegen.ui"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.emf.common.ui"/>
+      <feature id="org.eclipse.emf.converter"/>
+      <feature id="org.eclipse.emf.databinding"/>
+      <feature id="org.eclipse.emf.databinding.edit"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.ecore.edit"/>
+      <feature id="org.eclipse.emf.ecore.editor"/>
+      <feature id="org.eclipse.emf.edit"/>
+      <feature id="org.eclipse.emf.edit.ui"/>
+      <feature id="org.eclipse.emf.mapping"/>
+      <feature id="org.eclipse.emf.mapping.ecore"/>
+      <feature id="org.eclipse.emf.mapping.ecore.editor"/>
+      <feature id="org.eclipse.emf.mapping.ui"/>
+      <feature id="org.eclipse.emf.mwe2.language.sdk"/>
+      <feature id="org.eclipse.emf.mwe2.launcher"/>
+      <feature id="org.eclipse.emf.mwe2.runtime.sdk"/>
+      <feature id="org.eclipse.emf.mwe.core.feature"/>
+      <feature id="org.eclipse.emf.mwe.doc.feature"/>
+      <feature id="org.eclipse.emf.mwe.sdk"/>
+      <feature id="org.eclipse.emf.mwe.ui.feature"/>
+      <feature id="org.eclipse.emf.transaction"/>
+      <feature id="org.eclipse.emf.validation"/>
+      <feature id="org.eclipse.emf.validation.ocl"/>
+      <feature id="org.eclipse.emf.workspace"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
+      <feature id="org.eclipse.gef"/>
+      <feature id="org.eclipse.gmf"/>
+      <feature id="org.eclipse.gmf.runtime.notation"/>
+      <feature id="org.eclipse.gmf.runtime.thirdparty"/>
+      <feature id="org.eclipse.gmf.tooling.runtime"/>
+      <feature id="org.eclipse.help"/>
+      <feature id="org.eclipse.jdt"/>
+      <feature id="org.eclipse.m2m.qvt.oml"/>
+      <feature id="org.eclipse.ocl"/>
+      <feature id="org.eclipse.ocl.all"/>
+      <feature id="org.eclipse.ocl.all.sdk"/>
+      <feature id="org.eclipse.ocl.core.sdk"/>
+      <feature id="org.eclipse.ocl.doc"/>
+      <feature id="org.eclipse.ocl.edit"/>
+      <feature id="org.eclipse.ocl.examples"/>
+      <feature id="org.eclipse.ocl.examples.classic"/>
+      <feature id="org.eclipse.ocl.examples.unified"/>
+      <feature id="org.eclipse.ocl.ui"/>
+      <feature id="org.eclipse.ocl.uml"/>
+      <feature id="org.eclipse.ocl.unified.core"/>
+      <feature id="org.eclipse.ocl.unified.ui"/>
+      <feature id="org.eclipse.papyrus.customization.feature"/>
+      <feature id="org.eclipse.papyrus.doc.feature"/>
+      <feature id="org.eclipse.papyrus.editor.feature"/>
+      <feature id="org.eclipse.papyrus.emf.facet.feature"/>
+      <feature id="org.eclipse.papyrus.information.modeling.dependency.feature"/>
       <feature id="org.eclipse.papyrus.information.modeling.feature"/>
       <feature id="org.eclipse.papyrus.information.modeling.rcp.feature"/>
+      <feature id="org.eclipse.papyrus.infra.core.feature"/>
+      <feature id="org.eclipse.papyrus.infra.discovery.feature"/>
+      <feature id="org.eclipse.papyrus.infra.emf.feature"/>
+      <feature id="org.eclipse.papyrus.infra.feature"/>
+      <feature id="org.eclipse.papyrus.infra.gmfdiag.css.feature"/>
+      <feature id="org.eclipse.papyrus.infra.gmfdiag.feature"/>
+      <feature id="org.eclipse.papyrus.infra.nattable.feature"/>
+      <feature id="org.eclipse.papyrus.infra.services.feature"/>
+      <feature id="org.eclipse.papyrus.infra.ui.feature"/>
+      <feature id="org.eclipse.papyrus.infra.viewpoints.feature"/>
+      <feature id="org.eclipse.papyrus.infra.widget.feature"/>
+      <feature id="org.eclipse.papyrus.uml.alf.feature"/>
+      <feature id="org.eclipse.papyrus.uml.assistants.feature"/>
+      <feature id="org.eclipse.papyrus.uml.decoratormodel.feature"/>
+      <feature id="org.eclipse.papyrus.uml.diagram.css.feature"/>
+      <feature id="org.eclipse.papyrus.uml.diagram.feature"/>
+      <feature id="org.eclipse.papyrus.uml.feature"/>
+      <feature id="org.eclipse.papyrus.uml.modelexplorer.feature"/>
+      <feature id="org.eclipse.papyrus.uml.nattable.feature"/>
+      <feature id="org.eclipse.papyrus.uml.properties.feature"/>
+      <feature id="org.eclipse.papyrus.uml.search.feature"/>
+      <feature id="org.eclipse.papyrus.uml.textedit.feature"/>
+      <feature id="org.eclipse.papyrus.uml.tools.feature"/>
+      <feature id="org.eclipse.papyrus.uml.ui.feature"/>
+      <feature id="org.eclipse.papyrus.uml.xtext.integration.feature"/>
+      <feature id="org.eclipse.papyrus.views.modelexplorer.feature"/>
+      <feature id="org.eclipse.papyrus.views.properties.feature"/>
+      <feature id="org.eclipse.papyrus.views.search.feature"/>
+      <feature id="org.eclipse.papyrus.views.validation.feature"/>
+      <feature id="org.eclipse.pde"/>
+      <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.rcp"/>
-      <feature id="org.eclipse.papyrus.customization.feature" />
-      <feature id="org.eclipse.papyrus.editor.feature" />
-      <feature id="org.eclipse.papyrus.infra.core.feature" />
-      <feature id="org.eclipse.papyrus.infra.feature" />
-      <feature id="org.eclipse.papyrus.infra.gmfdiag.feature" />
-      <feature id="org.eclipse.papyrus.infra.services.feature" />
-      <feature id="org.eclipse.papyrus.infra.widget.feature" />
-      <feature id="org.eclipse.papyrus.uml.feature" />
-      <feature id="org.eclipse.papyrus.uml.modelexplorer.feature" />
-      <feature id="org.eclipse.papyrus.uml.properties.feature" />
-      <feature id="org.eclipse.papyrus.uml.tools.feature" />
-      <feature id="org.eclipse.papyrus.views.modelexplorer.feature" />
-      <feature id="org.eclipse.papyrus.views.properties.feature" />
-      <feature id="org.eclipse.papyrus.uml.diagram.feature" />
-      <feature id="org.eclipse.papyrus.infra.emf.feature" />
-      <feature id="org.eclipse.papyrus.uml.textedit.feature" />
-      <feature id="org.eclipse.papyrus.uml.alf.feature" />
-      <feature id="org.eclipse.papyrus.infra.discovery.feature" />
-      <feature id="org.eclipse.papyrus.views.validation.feature" />
-      <feature id="org.eclipse.papyrus.doc.feature" />
-      <feature id="org.eclipse.papyrus.views.search.feature" />
-      <feature id="org.eclipse.papyrus.uml.search.feature" />
-      <feature id="org.eclipse.papyrus.uml.xtext.integration.feature" />
-      <feature id="org.eclipse.papyrus.infra.nattable.feature" />
-      <feature id="org.eclipse.papyrus.uml.nattable.feature" />
-      <feature id="org.eclipse.papyrus.infra.gmfdiag.css.feature" />
-      <feature id="org.eclipse.papyrus.uml.diagram.css.feature" />
-      <feature id="org.eclipse.papyrus.emf.facet.feature" />
-      <feature id="org.eclipse.papyrus.infra.viewpoints.feature" />
-      <feature id="org.eclipse.papyrus.uml.decoratormodel.feature" />
-      <feature id="org.eclipse.papyrus.uml.assistants.feature" />
+      <feature id="org.eclipse.uml2"/>
+      <feature id="org.eclipse.uml2.codegen.ecore.ui"/>
+      <feature id="org.eclipse.uml2.common"/>
+      <feature id="org.eclipse.uml2.common.edit"/>
+      <feature id="org.eclipse.uml2.uml"/>
+      <feature id="org.eclipse.uml2.uml.edit"/>
+      <feature id="org.eclipse.wst.common_core.feature"/>
+      <feature id="org.eclipse.wst.xml_core.feature"/>
+      <feature id="org.eclipse.xpand"/>
+      <feature id="org.eclipse.xsd"/>
+      <feature id="org.eclipse.xtend"/>
+      <feature id="org.eclipse.xtend.dependencies"/>
+      <feature id="org.eclipse.xtend.sdk"/>
+      <feature id="org.eclipse.xtend.typesystem.emf"/>
+      <feature id="org.eclipse.xtext.runtime"/>
+      <feature id="org.eclipse.xtext.sdk"/>
+      <feature id="org.eclipse.xtext.ui"/>
+      <feature id="org.eclipse.xtext.xbase"/>
+      <feature id="org.eclipse.xtext.xbase.lib"/>
+      <feature id="org.eclipse.xtext.xtext.ui"/>
+      <feature id="org.eclipse.xwt.feature"/>
+      <feature id="org.eclipse.emf.compare"/>
+      <feature id="org.eclipse.emf.compare.diagram.gmf"/>
+      <feature id="org.eclipse.emf.compare.diagram.papyrus"/>
+      <feature id="org.eclipse.emf.compare.egit"/>
+      <feature id="org.eclipse.emf.compare.ide.ui"/>
+      <feature id="org.eclipse.emf.compare.uml2"/>
+      <feature id="org.eclipse.egit"/>
+      <feature id="org.eclipse.jgit"/>
    </features>
 
    <configurations>
@@ -227,6 +324,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.papyrus.information.modeling.ui" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="3" />
       <property name="org.eclipse.update.reconcile" value="false" />
       <property name="osgi.bundles.defaultStartLevel" value="4" />

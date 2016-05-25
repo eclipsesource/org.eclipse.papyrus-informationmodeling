@@ -11,3 +11,53 @@ location "http://download.eclipse.org/releases/neon/" eclipse-neon {
 location "http://download.eclipse.org/modeling/mdt/papyrus/updates/nightly/neon/main/" eclipse-papyrus-nighlty-neon {
  org.eclipse.papyrus.sdk.feature.feature.group lazy
 }
+
+location "http://download.eclipse.org/tools/orbit/downloads/drops/R20160221192158/repository/" {
+ org.apache.batik.bridge [1.6.0,1.7.0)
+ org.apache.batik.css [1.6.0,1.7.0)
+ org.apache.batik.dom [1.6.0,1.7.0)
+ org.apache.batik.dom.svg [1.6.0,1.7.0)
+ org.apache.batik.ext.awt [1.6.0,1.7.0)
+ org.apache.batik.parser [1.6.0,1.7.0)
+ org.apache.batik.pdf [1.6.0,1.7.0)
+ org.apache.batik.svggen [1.6.0,1.7.0)
+ org.apache.batik.transcoder [1.6.0,1.7.0)
+ org.apache.batik.xml [1.6.0,1.7.0)
+ org.apache.batik.util [1.6.0,1.7.0)
+}
+
+/**
+ * EMF Compare with logical model support for EGit
+ */
+location "http://download.eclipse.org/modeling/emf/compare/updates/logical/emf.compare/nightly/latest" {
+	org.eclipse.emf.compare.diagram.gmf.feature.group lazy
+	org.eclipse.emf.compare.diagram.papyrus.feature.group lazy
+	org.eclipse.emf.compare.egit.feature.group lazy
+	org.eclipse.emf.compare.feature.group lazy
+	org.eclipse.emf.compare.ide.ui.feature.group lazy
+	org.eclipse.emf.compare.rcp.ui.feature.group lazy
+	org.eclipse.emf.compare.uml2.feature.group lazy
+}
+/**
+ * Dependencies of EMF Compare with logical model support for EGit
+ */
+location "http://download.eclipse.org/cbi/updates/license" {
+	org.eclipse.license.feature.group [1.0.1,1.1.0)
+}
+
+location "http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/" {
+	com.google.guava [11.0.2,11.0.3)
+	org.junit [4.0.0,5.0.0)
+	org.apache.log4j [1.2.0,1.3.0)
+	/* Egit/Jgit */
+	javaewah
+	org.apache.commons.compress
+	org.kohsuke.args4j
+	/* Egit/Jgit */
+	org.mockito [1.9.0,2.0.0)
+	org.hamcrest [1.1.0,2.0.0)
+}
+
+location "http://download.eclipse.org/modeling/emf/compare/updates/egit-logical/nightly/" {
+	org.eclipse.egit.feature.group lazy
+}

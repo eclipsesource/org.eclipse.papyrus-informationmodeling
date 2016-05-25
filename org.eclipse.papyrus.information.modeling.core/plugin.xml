@@ -13,20 +13,29 @@
   Benoit Maggi (CEA LIST) benoit.maggi@cea.fr - Initial API and implementation
 -->
 <plugin>
-    <!--<extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
+	<!--
+    <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
 	     <diagramCategory
-	            description="Information Modeling diagrams"
-	            id="InformationModeling"
-	            label="InformationModeling">
+            class="org.eclipse.papyrus.information.modeling.core.command.CreateInformationModelCommand"
+            description="Information Modeling diagrams"
+            id="InformationModeling"
+            label="InformationModeling">
 	     </diagramCategory>
-    </extension>-->
-
+    </extension>
+	-->
    <extension
          point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
       <configuration
-            file="resources/InformationModeling.configuration"
+            file="resource/configuration/InformationModeling.configuration"
             priority="30">
       </configuration>
+   </extension>
+   
+   <extension
+         point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel
+            model="resource/newchild/IMNewChild.creationmenumodel">
+      </menuCreationModel>
    </extension>
 
 </plugin>
