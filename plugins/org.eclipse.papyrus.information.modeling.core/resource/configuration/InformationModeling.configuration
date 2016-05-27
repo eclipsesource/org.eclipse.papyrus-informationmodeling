@@ -2,7 +2,7 @@
 <configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_oa8yUBP7EeSS0oyATXohNA" defaultStakeholder="_stSKMBP7EeSS0oyATXohNA">
   <stakeholders xmi:id="_stSKMBP7EeSS0oyATXohNA" name="Information Modeler" viewpoints="_3T-cEBP7EeSS0oyATXohNA"/>
   <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_3T-cEBP7EeSS0oyATXohNA" name="Information Modeling Viewpoint">
-    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_9xMXIBP7EeSS0oyATXohNA" name="UML Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA" customPalette="" customStyle="platform:/plugin/org.eclipse.papyrus.information.modeling.core/resource/style/information_model.css">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_9xMXIBP7EeSS0oyATXohNA" name="UML Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA" customPalette="" customStyle="">
       <modelRules xmi:id="_Q9t2YBP8EeSS0oyATXohNA">
         <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>
@@ -16,10 +16,8 @@
       <childRules xmi:id="_dwcpMBZFEeSzr5rzfsl7Yg"/>
       <paletteRules xmi:id="_cLB5EB3SEeaWluI_M9CcJQ" element="clazz.tool.comment"/>
       <paletteRules xmi:id="_rGNbwB3OEeaWluI_M9CcJQ" element="clazz.tool.constraint"/>
-      <paletteRules xmi:id="_kNDOwB3SEeaWluI_M9CcJQ" element="clazz.tool.elementimport"/>
       <paletteRules xmi:id="_h1O-oB3ZEeaWluI_M9CcJQ" element="clazz.tool.package"/>
       <paletteRules xmi:id="_iHPUoB3ZEeaWluI_M9CcJQ" element="clazz.tool.packageimport"/>
-      <paletteRules xmi:id="_ZCFJsB5XEeaKs_GrNRbBjw" element="clazz.tool.model"/>
       <paletteRules xmi:id="_ZWzcgB5XEeaKs_GrNRbBjw" element="clazz.tool.datatype"/>
       <paletteRules xmi:id="_Zv4D0B5XEeaKs_GrNRbBjw" element="clazz.tool.class"/>
       <paletteRules xmi:id="_dUXeQB5XEeaKs_GrNRbBjw" element="clazz.tool.associationclass"/>
@@ -37,22 +35,6 @@
       <paletteRules xmi:id="_Zu7qEB3SEeaWluI_M9CcJQ" permit="false" element="clazz.tool.*"/>
       <paletteRules xmi:id="_JR-5AB3eEeaWluI_M9CcJQ" permit="false" element="createTimeObservation22CreationTool"/>
       <paletteRules xmi:id="_Ri5mUB3eEeaWluI_M9CcJQ" permit="false" element="createDurationObservation7CreationTool"/>
-    </modelKinds>
-    <modelKinds xsi:type="configuration:PapyrusSyncTable" xmi:id="_i_0kUCG8EeaTOvmjRmNNwg" name="View Table" icon="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/icons/nattablepageeditor.png" implementationID="PapyrusViewsTable" categories="_vUL7ABP7EeSS0oyATXohNA">
-      <modelRules xmi:id="_GEgjQCEGEeal_JjD8i1z0w">
-        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
-      </modelRules>
-      <owningRules xmi:id="_HRodsCEGEeal_JjD8i1z0w">
-        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
-      </owningRules>
-    </modelKinds>
-    <modelKinds xsi:type="configuration:PapyrusSyncTable" xmi:id="_uH2BoCG8EeaTOvmjRmNNwg" name="Generic Table" icon="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/icons/uml_generic_table.png" implementationID="PapyrusGenericTable" categories="_vUL7ABP7EeSS0oyATXohNA">
-      <modelRules xmi:id="_yTEE4CG8EeaTOvmjRmNNwg">
-        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
-      </modelRules>
-      <owningRules xmi:id="_yTEE4SG8EeaTOvmjRmNNwg">
-        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
-      </owningRules>
     </modelKinds>
   </viewpoints>
   <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>

@@ -40,5 +40,24 @@
             model="resource/newchild/IMNewEdge.creationmenumodel">
       </menuCreationModel>
    </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.css.theme">
+      <themeDefinition
+            icon="icons/papyrus.png"
+            id="org.eclipse.papyrus.information.modeling.core.im_theme"
+            label="Information Modeling Theme">
+      </themeDefinition>
+      <themeContribution
+            id="org.eclipse.papyrus.information.modeling.core.im_theme">
+         <stylesheet
+               stylesheetPath="resource/theme/im_theme.css">
+         </stylesheet>
+      </themeContribution>
+   </extension>
+   <extension
+         name="IM UML"
+         point="org.eclipse.papyrus.infra.properties.contexts">
+		<context contextModel="resource/context/IM-UML.ctx" isCustomizable="true"/>
+	</extension>
 
 </plugin>

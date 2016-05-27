@@ -23,11 +23,6 @@
       elementTypeIdRef="org.eclipse.papyrus.uml.Dependency"
       displayAllRoles="false"/>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-      label="ElementImport"
-      icon=""
-      elementTypeIdRef="org.eclipse.papyrus.uml.ElementImport"
-      displayAllRoles="false"/>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
       xmi:id="_RD-_0RZUEeSzr5rzfsl7Yg"
       label="Generalization"
       elementTypeIdRef="org.eclipse.papyrus.uml.Generalization"

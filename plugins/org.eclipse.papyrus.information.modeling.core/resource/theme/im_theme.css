@@ -5,7 +5,8 @@ Property {
 	transparency: 0;
 	gradient: #FFFFFF vertical;
 	lineColor: #000000;
-	elementIcon: true}
+	elementIcon: true;
+}
 
 Operation {
 	fillColor: #C3D1D5;
@@ -21,18 +22,20 @@ Class {
 	lineWidth: 1px;
 	elementIcon: true;
 	shadow: true;
-	shadowWidth: 0px;
-	shadowColor: black;
-	radiusWidth: 0px;
-	radiusHeight: 0px;
+	shadowWidth: 2px;
+	shadowColor: darkgray;
+	radiusWidth: 4px;
+	radiusHeight: 4px;
 }
 
 Class > Compartment {
+	fillColor: #FFFFFF;
 	visible:false;
 }
 
 Class > Compartment[kind="attributes"] {
     visible:true;
+    fillColor: #FFFFFF;
     showTitle:false;
 }
 
