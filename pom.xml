@@ -14,8 +14,8 @@
 	<modules>
 		<module>targetplatform</module>
 		<module>plugins/org.eclipse.papyrus.information.modeling.core</module>
-		<module>plugins/org.eclipse.papyrus.information.modeling.ui</module>
-		<module>plugins/org.eclipse.papyrus.information.modeling.wizards</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.simplifiedui</module>
+		<module>plugins/org.eclipse.papyrus.information.modeling.intro</module>
 		<module>releng</module>
 	</modules>
 	<properties>

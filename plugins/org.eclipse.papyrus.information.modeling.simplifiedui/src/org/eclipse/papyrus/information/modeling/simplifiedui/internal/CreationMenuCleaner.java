@@ -1,4 +1,14 @@
-package org.eclipse.papyrus.information.modeling.ui;
+/**
+ * Copyright (c) 2016 EclipseSource Services GmbH and others.
+ * 
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Martin Fleck (EclipseSource) - Initial API and implementation
+ */
+package org.eclipse.papyrus.information.modeling.simplifiedui.internal;
 
 import org.eclipse.papyrus.infra.newchild.CreationMenuRegistry;
 import org.eclipse.papyrus.infra.newchild.elementcreationmenumodel.Folder;

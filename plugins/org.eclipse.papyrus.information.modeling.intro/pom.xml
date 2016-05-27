@@ -9,6 +9,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<relativePath>../../</relativePath>
 	</parent>
 	<groupId>org.eclipse.papyrus</groupId>
-	<artifactId>org.eclipse.papyrus.information.modeling.wizards</artifactId>
+	<artifactId>org.eclipse.papyrus.information.modeling.intro</artifactId>
 	<packaging>eclipse-plugin</packaging>
 </project>
