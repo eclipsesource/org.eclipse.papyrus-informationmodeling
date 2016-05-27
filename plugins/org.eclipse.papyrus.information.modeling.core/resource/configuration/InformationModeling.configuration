@@ -2,7 +2,7 @@
 <configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_oa8yUBP7EeSS0oyATXohNA" defaultStakeholder="_stSKMBP7EeSS0oyATXohNA">
   <stakeholders xmi:id="_stSKMBP7EeSS0oyATXohNA" name="Information Modeler" viewpoints="_3T-cEBP7EeSS0oyATXohNA"/>
   <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_3T-cEBP7EeSS0oyATXohNA" name="Information Modeling Viewpoint">
-    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_9xMXIBP7EeSS0oyATXohNA" name="UML Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA" customPalette="" customStyle="platform:/plugin/org.eclipse.papyrus.information.modeling.core/resource/style/base.css">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_9xMXIBP7EeSS0oyATXohNA" name="UML Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" implementationID="PapyrusUMLClassDiagram" categories="_vUL7ABP7EeSS0oyATXohNA" customPalette="" customStyle="platform:/plugin/org.eclipse.papyrus.information.modeling.core/resource/style/information_model.css">
       <modelRules xmi:id="_Q9t2YBP8EeSS0oyATXohNA">
         <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>

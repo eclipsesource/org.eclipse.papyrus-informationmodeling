@@ -8,9 +8,10 @@ public class CreationMenuCleaner {
 	public static final String UML_NEW_RELATIONSHIP_MENU = "/resource/UMLEdges.creationmenumodel";
 
 	public static final String IM_NEW_CHILD_MENU = "/resource/newchild/IMNewChild.creationmenumodel";
+	public static final String IM_NEW_RELATIONSHIP_MENU = "/resource/newchild/IMNewEdge.creationmenumodel";
 
 	protected static final String[] DEACTIVATED_CHILD_MENUS = new String[] {
-		UML_NEW_CHILD_MENU
+		UML_NEW_CHILD_MENU, UML_NEW_RELATIONSHIP_MENU
 	};
 	
 	public static void clean() {

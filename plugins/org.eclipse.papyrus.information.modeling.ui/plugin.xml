@@ -318,13 +318,7 @@
             activityId="org.eclipse.papyrus.information.modeling.ui.hideEMF"
             isEqualityPattern="true"
             pattern="org.eclipse.emf.codegen.ecore.ui/org.eclipse.emf.codegen.ecore.ui.wizardCategory">
-      </activityPatternBinding>
-      <activityPatternBinding
-            activityId="org.eclipse.papyrus.information.modeling.ui.hideEMF"
-            isEqualityPattern="false"
-            pattern="org\.eclipse\.emf\..*\/org.eclipse.emf.codegen.ecore.ui.wizardCategory">
-      </activityPatternBinding>
-      
+      </activityPatternBinding>      
       
       <!-- External Tools -->
       <activity

@@ -36,6 +36,9 @@
       <menuCreationModel
             model="resource/newchild/IMNewChild.creationmenumodel">
       </menuCreationModel>
+      <menuCreationModel
+            model="resource/newchild/IMNewEdge.creationmenumodel">
+      </menuCreationModel>
    </extension>
 
 </plugin>
