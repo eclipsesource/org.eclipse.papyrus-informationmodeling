@@ -96,6 +96,23 @@
             isEqualityPattern="false"
             pattern="org\.eclipse\.jdt\.junit\/.*">
       </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt\.debug/debugModel">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt\..*/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideJDT"
+            pattern="org\.eclipse\.jdt\.core/javanature">
+      </activityPatternBinding>
+      
       
       <!-- Xtend/Xtext/Xbase -->
       <activity
@@ -330,7 +347,12 @@
             activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
             isEqualityPattern="true"
             pattern="org.eclipse.emf.codegen.ecore.ui/org.eclipse.emf.codegen.ecore.ui.wizardCategory">
-      </activityPatternBinding>      
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEMF"
+            isEqualityPattern="false"
+            pattern="org.eclipse.uml2.uml.editor/org\.eclipse\.uml2\.uml\.editor\.presentation\.UMLModelWizardID">
+      </activityPatternBinding>
       
       <!-- External Tools -->
       <activity
