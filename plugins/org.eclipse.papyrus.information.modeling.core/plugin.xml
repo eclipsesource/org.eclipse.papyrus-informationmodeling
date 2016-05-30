@@ -55,9 +55,9 @@
       </themeContribution>
    </extension>
    <extension
-         name="IM UML"
+         name="UML Subset for Information Modeling"
          point="org.eclipse.papyrus.infra.properties.contexts">
-		<context contextModel="resource/context/IM-UML.ctx" isCustomizable="true"/>
+		<context appliedByDefault="true" contextModel="resource/context/IM-UML.ctx" isCustomizable="true"/>
 	</extension>
 
 </plugin>
