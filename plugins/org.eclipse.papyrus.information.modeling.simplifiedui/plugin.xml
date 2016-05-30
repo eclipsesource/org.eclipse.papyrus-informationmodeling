@@ -14,6 +14,18 @@
             isEqualityPattern="true"
             pattern="org.eclipse.ui.ide/org.eclipse.ui.Examples">
       </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoLastEditPosition">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoPreviousAnnotation">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoNextAnnotation">
+      </activityPatternBinding>
       
       <!-- PDE -->
       <activity
@@ -379,6 +391,27 @@
        <hiddenMenuItem
              id="org.eclipse.ui.run">
        </hiddenMenuItem>
+    </perspectiveExtension>
+ </extension>
+ <extension
+       point="org.eclipse.ui.perspectiveExtensions">
+    <perspectiveExtension
+          targetID="org.eclipse.papyrus.infra.core.perspective">
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.infra.emf.readonly.EnableWriteCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.infra.discovery.ui.menu.toolbars.discoveryCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.editor.previousTabCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.editor.nextTabCommand">
+       </hiddenToolBarItem>
+       <hiddenToolBarItem
+             id="org.eclipse.papyrus.infra.viewpoints.policy.toolbar.diagrams">
+       </hiddenToolBarItem>
     </perspectiveExtension>
  </extension>
 </plugin>
