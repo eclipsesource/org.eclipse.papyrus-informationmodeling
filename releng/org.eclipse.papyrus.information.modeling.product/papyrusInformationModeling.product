@@ -39,7 +39,7 @@ Apache Software Foundation http://www.apache.org/
       startupProgressRect="0,330,460,20"
       startupMessageRect="7,4,445,16"
       startupForegroundColor="9C9E9F" />
-   <launcher name="papyrusInformationModeling">
+   <launcher name="papyrus-im">
       <linux icon="../org.eclipse.papyrus.information.modeling.rcp/icons/icon.xpm"/>
       <macosx icon="../org.eclipse.papyrus.information.modeling.rcp/icons/papyrus.icns"/>
       <solaris/>
