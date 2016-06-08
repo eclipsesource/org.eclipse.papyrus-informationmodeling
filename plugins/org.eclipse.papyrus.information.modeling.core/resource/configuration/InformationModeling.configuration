@@ -17,24 +17,57 @@
       <paletteRules xmi:id="_cLB5EB3SEeaWluI_M9CcJQ" element="clazz.tool.comment"/>
       <paletteRules xmi:id="_rGNbwB3OEeaWluI_M9CcJQ" element="clazz.tool.constraint"/>
       <paletteRules xmi:id="_h1O-oB3ZEeaWluI_M9CcJQ" element="clazz.tool.package"/>
-      <paletteRules xmi:id="_iHPUoB3ZEeaWluI_M9CcJQ" element="clazz.tool.packageimport"/>
       <paletteRules xmi:id="_ZWzcgB5XEeaKs_GrNRbBjw" element="clazz.tool.datatype"/>
       <paletteRules xmi:id="_Zv4D0B5XEeaKs_GrNRbBjw" element="clazz.tool.class"/>
       <paletteRules xmi:id="_dUXeQB5XEeaKs_GrNRbBjw" element="clazz.tool.associationclass"/>
       <paletteRules xmi:id="_eH07gB5XEeaKs_GrNRbBjw" element="clazz.tool.property"/>
       <paletteRules xmi:id="_hLLXwB5XEeaKs_GrNRbBjw" element="clazz.tool.enumeration"/>
       <paletteRules xmi:id="_hLLXwR5XEeaKs_GrNRbBjw" element="clazz.tool.enumerationliteral"/>
+      <paletteRules xmi:id="_KSaYEB3aEeaWluI_M9CcJQ" element="clazz.tool.instancespecification"/>
+      <paletteRules xmi:id="_KW1lEB3aEeaWluI_M9CcJQ" element="clazz.tool.slot"/>
+      <paletteRules xmi:id="_KaNpMB3aEeaWluI_M9CcJQ" element="clazz.tool.instancevalue"/>
+      <paletteRules xmi:id="_iHPUoB3ZEeaWluI_M9CcJQ" element="clazz.tool.packageimport"/>
       <paletteRules xmi:id="_ixbhIB3ZEeaWluI_M9CcJQ" element="clazz.tool.realization"/>
       <paletteRules xmi:id="_i2Y5oB3ZEeaWluI_M9CcJQ" element="clazz.tool.generalization"/>
       <paletteRules xmi:id="_i7p0IB3ZEeaWluI_M9CcJQ" element="clazz.tool.association"/>
       <paletteRules xmi:id="_JaaZEB3aEeaWluI_M9CcJQ" element="clazz.tool.dependency"/>
       <paletteRules xmi:id="_J3Yo8B3aEeaWluI_M9CcJQ" element="clazz.tool.usage"/>
-      <paletteRules xmi:id="_KSaYEB3aEeaWluI_M9CcJQ" element="clazz.tool.instancespecification"/>
-      <paletteRules xmi:id="_KW1lEB3aEeaWluI_M9CcJQ" element="clazz.tool.slot"/>
-      <paletteRules xmi:id="_KaNpMB3aEeaWluI_M9CcJQ" element="clazz.tool.instancevalue"/>
       <paletteRules xmi:id="_Zu7qEB3SEeaWluI_M9CcJQ" permit="false" element="clazz.tool.*"/>
       <paletteRules xmi:id="_JR-5AB3eEeaWluI_M9CcJQ" permit="false" element="createTimeObservation22CreationTool"/>
       <paletteRules xmi:id="_Ri5mUB3eEeaWluI_M9CcJQ" permit="false" element="createDurationObservation7CreationTool"/>
+      <assistantRules xmi:id="_UfCdFC2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape"/>
+      <assistantRules xmi:id="_UfCdFS2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape_CN"/>
+      <assistantRules xmi:id="_UfCdEi2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+      <assistantRules xmi:id="_UfCdEy2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+      <assistantRules xmi:id="_uaHUcS2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape"/>
+      <assistantRules xmi:id="_uaHUci2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape_CN"/>
+      <assistantRules xmi:id="_tocm8C2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Package_ClassDiagram"/>
+      <assistantRules xmi:id="_tocm8S2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.DataType_Shape"/>
+      <assistantRules xmi:id="_tocm8i2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.DataType_Shape_CN"/>
+      <assistantRules xmi:id="_sWtkMC2OEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Class_Shape"/>
+      <assistantRules xmi:id="_Gk22oC2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Class_Shape_CN"/>
+      <assistantRules xmi:id="_J8KwsC2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.AssociationClass_Shape"/>
+      <assistantRules xmi:id="_UfCdFy2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Property_ClassAttributeLabel"/>
+      <assistantRules xmi:id="_UfCdGC2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Property_DataTypeAttributeLabel"/>
+      <assistantRules xmi:id="_uC68cC2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Enumeration_Shape"/>
+      <assistantRules xmi:id="_uC68cS2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Enumeration_Shape_CN"/>
+      <assistantRules xmi:id="_UfCdGi2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.EnumerationLiteral_LiteralLabel"/>
+      <assistantRules xmi:id="_uC68ci2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.InstanceSpecification_Shape"/>
+      <assistantRules xmi:id="_uaHUcC2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.InstanceSpecification_Shape_CN"/>
+      <assistantRules xmi:id="_UfCdGy2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Slot_SlotLabel"/>
+      <assistantRules xmi:id="_dbYQgC2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.InstanceSpecification_Edge"/>
+      <assistantRules xmi:id="_dbYQgS2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.PackageImport_Edge"/>
+      <assistantRules xmi:id="_dbYQgi2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Realization_Edge"/>
+      <assistantRules xmi:id="_dbYQgy2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Generalization_Edge"/>
+      <assistantRules xmi:id="_dbYQhC2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.GeneralizationSet_Edge"/>
+      <assistantRules xmi:id="_UfCdEC2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Association_Shape"/>
+      <assistantRules xmi:id="_dbYQhS2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Association_Edge"/>
+      <assistantRules xmi:id="_dbYQhi2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Association_BranchEdge"/>
+      <assistantRules xmi:id="_UfCdES2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Dependency_Shape"/>
+      <assistantRules xmi:id="_dbYQhy2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Dependency_Edge"/>
+      <assistantRules xmi:id="_UfCdGS2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Dependency_BranchEdge"/>
+      <assistantRules xmi:id="_dbYQiC2SEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Usage_Edge"/>
+      <assistantRules xmi:id="_1LpvIC2PEeamkv8UzKSY-w" permit="false" elementTypeID="*"/>
     </modelKinds>
   </viewpoints>
   <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
