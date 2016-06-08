@@ -10,6 +10,8 @@
  */
 package org.eclipse.papyrus.information.modeling.simplifiedui;
 
+import org.eclipse.papyrus.information.modeling.simplifiedui.internal.ContextConfigurator;
+import org.eclipse.papyrus.information.modeling.simplifiedui.internal.ContextConfigurator.Context;
 import org.eclipse.papyrus.information.modeling.simplifiedui.internal.CreationMenuCleaner;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -24,6 +26,7 @@ public class Activator extends AbstractUIPlugin {
 		super.start(context);
 		plugin = this;
 		CreationMenuCleaner.clean();
+		ContextConfigurator.disableContext(Context.UML);
 	}
 
 	public void stop(BundleContext context) throws Exception {

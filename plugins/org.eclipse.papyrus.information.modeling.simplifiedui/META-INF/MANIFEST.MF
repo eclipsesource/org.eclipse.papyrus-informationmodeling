@@ -8,7 +8,8 @@ Bundle-Activator: org.eclipse.papyrus.information.modeling.simplifiedui.Activato
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.papyrus.infra.newchild,
- org.eclipse.ui.workbench
+ org.eclipse.ui.workbench,
+ org.eclipse.papyrus.views.properties
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: %Bundle-Vendor
