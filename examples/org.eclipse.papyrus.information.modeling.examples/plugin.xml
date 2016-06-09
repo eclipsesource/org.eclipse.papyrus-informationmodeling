@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.common.ui.examples">
+      <example
+            id="org.eclipse.papyrus.information.modeling.examples.projectmanagement"
+            wizardID="org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement">
+         <projectDescriptor
+               contentURI="ProjectManagement/"
+               description="This is description"
+               name="ProjectManagement">
+         </projectDescriptor>
+      </example>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            class="org.eclipse.emf.common.ui.wizard.ExampleInstallerWizard"
+            icon="icons/papyrus.png"
+            id="org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement"
+            name="Project Management Model">
+      </wizard>
+      <category
+            id="org.eclipse.papyrus.information.modeling.examples.category"
+            name="Papyrus Information Modeling"
+            parentCategory="org.eclipse.ui.Examples">
+      </category>
+   </extension>
+
+</plugin>

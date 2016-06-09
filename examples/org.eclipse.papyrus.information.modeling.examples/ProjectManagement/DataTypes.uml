@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_g4otgCzBEeaEGtvmx1EULw" name="DataTypes" URI="http://www.eclipse.org/papyrus/im/examples/datatypelibrary/1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_g8AxoCzBEeaEGtvmx1EULw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tzuXACzZEea8G-9zdH7vYw" name="Common">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_im60QSzBEeaEGtvmx1EULw" name="Date">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_im60QizBEeaEGtvmx1EULw" name="day" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_im60QyzBEeaEGtvmx1EULw" name="month" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_im60RCzBEeaEGtvmx1EULw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_im60RSzBEeaEGtvmx1EULw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_im60RizBEeaEGtvmx1EULw" name="year" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_im60RyzBEeaEGtvmx1EULw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_im60SCzBEeaEGtvmx1EULw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nOwLAC6CEeacqrhFmauLrw" name="Period">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pNBOgC6CEeacqrhFmauLrw" name="from" type="_im60QSzBEeaEGtvmx1EULw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qlYIkC6CEeacqrhFmauLrw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qlby8C6CEeacqrhFmauLrw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rCzrcC6CEeacqrhFmauLrw" name="to" type="_im60QSzBEeaEGtvmx1EULw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r70-IC6CEeacqrhFmauLrw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r74BcC6CEeacqrhFmauLrw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_yf5IEC6CEeacqrhFmauLrw" name="Estimate">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yf5IES6CEeacqrhFmauLrw" name="value">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yf5IEi6CEeacqrhFmauLrw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yf5IEy6CEeacqrhFmauLrw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yf5IFC6CEeacqrhFmauLrw" name="unit" visibility="public" type="_8SmYQC6CEeacqrhFmauLrw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yf5IFS6CEeacqrhFmauLrw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yf5IFi6CEeacqrhFmauLrw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_8SmYQC6CEeacqrhFmauLrw" name="Unit">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_9B2q8C6CEeacqrhFmauLrw" name="days"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_9wmnUC6CEeacqrhFmauLrw" name="hours"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-Q3bwC6CEeacqrhFmauLrw" name="storyPoints"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
