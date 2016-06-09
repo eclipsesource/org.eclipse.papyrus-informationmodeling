@@ -6,12 +6,8 @@
       <modelRules xmi:id="_Q9t2YBP8EeSS0oyATXohNA">
         <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>
-      <owningRules xmi:id="_URJ9EBP8EeSS0oyATXohNA">
-        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
-        <selectDiagramRoot xmi:id="_4rbVICG8EeaTOvmjRmNNwg"/>
-      </owningRules>
       <owningRules xmi:id="_2Y544CG8EeaTOvmjRmNNwg">
-        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </owningRules>
       <childRules xmi:id="_dwcpMBZFEeSzr5rzfsl7Yg"/>
       <paletteRules xmi:id="_cLB5EB3SEeaWluI_M9CcJQ" element="clazz.tool.comment"/>
