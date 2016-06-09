@@ -16,6 +16,7 @@
 		<module>plugins/org.eclipse.papyrus.information.modeling.core</module>
 		<module>plugins/org.eclipse.papyrus.information.modeling.simplifiedui</module>
 		<module>plugins/org.eclipse.papyrus.information.modeling.intro</module>
+		<module>examples/org.eclipse.papyrus.information.modeling.examples</module>
 		<module>releng</module>
 	</modules>
 	<properties>
@@ -271,6 +272,7 @@
 								<plugin id="org.eclipse.wst.common.project.facet.core" />
 								<plugin id="org.eclipse.emf.compare.rcp" />
 								<plugin id="org.eclipse.emf.compare.rcp.ui" />
+								<plugin id="org.eclipse.papyrus.information.modeling.examples" />
 							</excludes>
 						</configuration>
 					</execution>
