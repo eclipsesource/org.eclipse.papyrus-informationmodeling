@@ -17,18 +17,21 @@ import org.osgi.framework.BundleContext;
 
 public class Activator implements BundleActivator {
 
+	/** The id of the plug-in. */
 	public static final String PLUGIN_ID = "org.eclipse.papyrus.information.modeling.core"; //$NON-NLS-1$
-	
+
 	private static BundleContext context;
 
 	static BundleContext getContext() {
 		return context;
 	}
 
+	@Override
 	public void start(BundleContext bundleContext) throws Exception {
 		Activator.context = bundleContext;
 	}
 
+	@Override
 	public void stop(BundleContext bundleContext) throws Exception {
 		Activator.context = null;
 	}

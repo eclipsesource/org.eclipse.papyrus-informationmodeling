@@ -13,22 +13,30 @@ package org.eclipse.papyrus.information.modeling.simplifiedui.internal;
 import org.eclipse.papyrus.infra.newchild.CreationMenuRegistry;
 import org.eclipse.papyrus.infra.newchild.elementcreationmenumodel.Folder;
 
-public class CreationMenuCleaner {
-	public static final String UML_NEW_CHILD_MENU = "/resource/UML.creationmenumodel";
-	public static final String UML_NEW_RELATIONSHIP_MENU = "/resource/UMLEdges.creationmenumodel";
+/**
+ * Cleans the creation menu.
+ */
+public final class CreationMenuCleaner {
+	
+	private static final String UML_NEW_CHILD_MENU = "/resource/UML.creationmenumodel";
+	private static final String UML_NEW_RELATIONSHIP_MENU = "/resource/UMLEdges.creationmenumodel";
 
-	public static final String IM_NEW_CHILD_MENU = "/resource/newchild/IMNewChild.creationmenumodel";
-	public static final String IM_NEW_RELATIONSHIP_MENU = "/resource/newchild/IMNewEdge.creationmenumodel";
-
-	protected static final String[] DEACTIVATED_CHILD_MENUS = new String[] {
+	private static final String[] DEACTIVATED_CHILD_MENUS = new String[] {
 		UML_NEW_CHILD_MENU, UML_NEW_RELATIONSHIP_MENU
 	};
 	
+	private CreationMenuCleaner() {
+		// hidden constructor.
+	}
+
+	/**
+	 * Cleans the creation menu.
+	 */
 	public static void clean() {
 		CreationMenuRegistry instance = org.eclipse.papyrus.infra.newchild.CreationMenuRegistry.getInstance();
-		for(Folder folder : instance.getRootFolder()) {
-			for(String childMenuPath : DEACTIVATED_CHILD_MENUS) {
-				if(folder.eResource().getURI().toString().endsWith(childMenuPath)) {
+		for (Folder folder : instance.getRootFolder()) {
+			for (String childMenuPath : DEACTIVATED_CHILD_MENUS) {
+				if (folder.eResource().getURI().toString().endsWith(childMenuPath)) {
 					instance.setCreationMenuVisibility(folder, false);
 				}
 			}

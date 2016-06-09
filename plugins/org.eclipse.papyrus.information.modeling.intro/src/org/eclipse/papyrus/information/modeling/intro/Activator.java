@@ -15,15 +15,18 @@ import org.osgi.framework.BundleContext;
 
 public class Activator extends AbstractUIPlugin {
 
+	/** The id of the plug-in. */
 	public static final String PLUGIN_ID = "org.eclipse.papyrus.information.modeling.intro"; //$NON-NLS-1$
-	
+
 	private static Activator plugin;
-	
+
+	@Override
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
 		plugin = this;
 	}
 
+	@Override
 	public void stop(BundleContext context) throws Exception {
 		plugin = null;
 		super.stop(context);
