@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<introContent>
+  <extensionContent id="org.eclipse.papyrus.information.modeling.intro.samples" name="Information Modeling Tutorials" alt-style="css/samples.properties" style="css/samples.css" path="samples/@">
+    <group label="Information Modeling" id="org.eclipse.papyrus.information.modeling.intro.tutorial-group" style-id="content-group">
+      <text style-id="group-description">The following samples demonstrate the capabilities and features of Papyrus Information Modeling.</text>
+      <link label="Project Management Example" 
+      		id="im-sample-project-management" 
+      		style-id="content-link"
+ 	    	url="http://org.eclipse.ui.intro/runAction?pluginId=org.eclipse.papyrus.information.modeling.intro&amp;class=org.eclipse.papyrus.information.modeling.intro.internal.action.ShowWizardAction&amp;id=org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement">
+        <text>This Project Management example uses the most common elements and features of  UML class diagrams and demonstrate how model information can be split across files.</text>
+      </link>
+    </group>
+  </extensionContent>
+</introContent>

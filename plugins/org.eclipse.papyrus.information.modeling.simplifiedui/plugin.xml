@@ -23,11 +23,6 @@
             name="Hide Selected Eclipse UI Functionality">
       </activity>
       <activityPatternBinding
-            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
-            isEqualityPattern="true"
-            pattern="org.eclipse.ui.ide/org.eclipse.ui.Examples">
-      </activityPatternBinding>
-      <activityPatternBinding
 			activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hideEclipseUI"
 			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoLastEditPosition">
       </activityPatternBinding>

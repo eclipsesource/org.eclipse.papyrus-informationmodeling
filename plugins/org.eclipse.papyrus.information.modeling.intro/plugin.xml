@@ -31,6 +31,10 @@
             configId="org.eclipse.ui.intro.universalConfig"
             content="extensions/tutorialsExtensionContent.xml">
       </configExtension>
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="extensions/samplesExtensionContent.xml">
+      </configExtension>
    </extension>
    <extension
          point="org.eclipse.ui.cheatsheets.cheatSheetContent">
@@ -40,10 +44,9 @@
       </category>
       <cheatsheet
             category="org.eclipse.papyrus.information.modeling.intro.category.papyrus"
-            composite="false"
-            contentFile="$nl$/cheatsheet/HelloWorld.xml"
-            id="org.eclipse.papyrus.information.modeling.intro.cheatsheet.helloWorld"
-            name="Create a Papyrus UML Class Diagram">
+            contentFile="$nl$/cheatsheet/getting_started.xml"
+            id="org.eclipse.papyrus.information.modeling.intro.cheatsheet.GettingStarted"
+            name="Getting Started">
       </cheatsheet>
    </extension>
 </plugin>

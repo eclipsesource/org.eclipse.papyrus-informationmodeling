@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Wizards
+Bundle-Name: %Bundle-Name
+Bundle-Description: %Bundle-Description
 Bundle-Localization: plugin
 Bundle-SymbolicName: org.eclipse.papyrus.information.modeling.intro;singleton:=true
 Bundle-Version: 0.0.1.qualifier
@@ -10,6 +11,10 @@ Require-Bundle: org.eclipse.ui;bundle-version="[3.108.0,4.0.0)",
  org.eclipse.emf.ecore;bundle-version="[2.12.0,3.0.0)",
  org.eclipse.papyrus.uml.diagram.common;bundle-version="[2.0.0,3.0.0)",
  org.eclipse.papyrus.uml.diagram.wizards;bundle-version="[2.0.0,3.0.0)",
- org.eclipse.ui.intro;bundle-version="[3.5.0,4.0.0)"
+ org.eclipse.ui.intro;bundle-version="[3.5.0,4.0.0)",
+ org.eclipse.pde.ui;bundle-version="[3.9.0,4.0.0)",
+ org.eclipse.ui.intro.universal;bundle-version="[3.3.0,4.0.0)",
+ org.eclipse.papyrus.information.modeling.examples
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
