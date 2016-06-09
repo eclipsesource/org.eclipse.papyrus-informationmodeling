@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Getting Started">      
+<intro>
+	<description>
+		This tutorial introduces the overall UI and concepts of Papyrus Information Modeling and demonstrates how to create a project with a UML class diagram.
+	</description>
+</intro>
+<item title="Get to know your environment">
+	<description>
+		The most important step is to familiarize yourself with the modeling environment. 
+	</description>
+	<subitem>
+		<description>
+			<b>Papyrus Perpsective</b><br/>
+			All modeling activities are usually performed in the so called 'Papyrus' perspective.<br/>
+			You can switch between different perspectives by clicking the button in the upper right corner of this window. Alternatively, you may open the selection dialog through the menu 'Window' > 'Perspective' > 'Open Perspective'.<br/>
+			<br/>
+			The Papyrus perspective is already configured with the most common views to support you in viewing, creating, and modifying UML models.
+			To open the the Papyrus perspective, click the green action arrow.
+		</description>
+		<command required="true" confirm="true"
+			serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.papyrus.infra.core.perspective)"/>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Project Explorer</b><br/>
+			This explorer shows a list of all projects and files and your workspace.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Model Explorer</b><br/>
+			This explorer shows the content of the currently opened UML model. 
+			The Model Explorer can also be used to modify the content of a model, as we do later in this tutorial.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Properties View</b><br/>
+			The Properties view shows the properties of the currently selected element of the Project Explorer or Model Explorer.
+			We can use this view to manipulate the properties of model elements.
+		</description>
+	</subitem>
+</item>
+<item title="Create a new Papyrus Project" dialog="true">
+	<description>
+		All UML models must be contained in a project. 
+		The Papyrus project wizard allows you to initialize a project with a UML model and automatically opens the respective model editor.<br/>
+		<br/>
+		To create a new project, you can select 'File' > 'New' > 'Papyrus Project' from the menu or right-click in the Project explorer and select 'New' > 'Papyrus Project'.
+	</description>
+	<subitem>
+		<description>
+			Start the Papyrus project wizard.
+		</description>
+		<command required="true"
+			serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.papyrus.uml.diagram.wizards.createproject)"/>
+	</subitem>
+	<subitem label="Select 'UML' as Diagram Language and hit 'Next'." />
+	<subitem label="Specify a 'Project name' and hit 'Next'." />
+	<subitem label="Select the 'UML Class Diagram' as Diagram Kind, check 'A UML model with basic primitive types' and and hit 'Finish'." />
+</item>
+<item title="Inspect the created project content">
+	<description>
+		After creating the model, the model editor is opened automatically with the empty class diagram.
+	</description>
+	<subitem>
+		<description>
+			<b>Model Explorer</b><br/>
+			When you expand the elements in the Model Explorer, you will see that a single Model element has been created and that the UML Primitive Types library has been imported. 
+			Furthermore, the wizard created an empty UML Class Diagram which we can use to visually add elements to our model.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Properties View</b><br/>
+			To see the properties of the root Model element, you can select the element in the Model Explorer (the default name is 'RootElement') or click in the empty area of the diagram editor.
+			In the Properties view, you then see and modify the properties of the selected element such as 'Name', 'URI', and 'Visibility' for the Model element.
+		</description>
+	</subitem>
+</item>
+<item title="Create your first UML Classes">
+	<description>
+		There are several ways how we can add elements to our model.
+	</description>
+	<subitem>
+		<description>
+			<b>Palette</b><br/>
+			On the right side of the modeling editor you can find the element palette. 
+			You can add a class by clicking the 'Class' element from the 'Nodes' compartment and dropping it on the empty editor area.
+			After the class is created, you are automatically prompted to override the default class name.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Modeling Assistants</b><br/>
+			Model Assistants are popup menus that are shown when you hover with the mouse over different model elements. 
+			To add a class to the model, you simply hover over the empty diagram area and select 'Add Class Shape' from the popup menu.
+			After the class is created, you are automatically prompted to override the default class name.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Model Explorer</b><br/>
+			You can also add elements in the Model Explorer.
+			These elements are not automatically shown in the UML class diagram and need to be added manually.
+			To add a class, right-click on the Model element and select 'New Child' > 'Class'.
+			At this point, the class is given a default name which can be changed through the Properties view.
+			To add an element to the diagram, you can simply drag it from the Model Explorer and drop it into the diagram area.
+		</description>
+	</subitem>
+</item>
+<item title="Connecting classes with Associations">
+	<description>
+		Classes and other model elements can be connected with each other through relationships.
+		To create these relationships we have several possibilities.
+	</description>
+	<subitem>
+		<description>
+			<b>Palette</b><br/>
+			Using the element palette on the right side of the editor, you can select the 'Association' and then click on the two classes you want to connect.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Modeling Connectors</b><br/>
+			Model Connectors are visual popups that are shown when you hover with the mouse over different model elements. 
+			To connect two classes with an association, you can hover over the starting class, select the small arrow that leads away from the class and drag it to the target class.
+			A small popup menu will appear that asks you what kind of connection you want to create.
+			For an association, select 'Create Association Edge'.
+		</description>
+	</subitem>
+	<subitem>
+		<description>
+			<b>Model Explorer</b><br/>
+			As with other model elements, relationships can also be added through the Model Explorer. 
+			To add an Association, right-click on the Model element and select 'New Relationship' > 'Association'.
+			As you can see in the Properties View, a bare association is not connected to anything by default.
+			Therefore, you need to select the association and create two child properties ('New Child' > 'Property').
+			For each of these properties, you should select the 'Type' to specify which classes are connected by the association.
+			After both properties are finished, you can see that they are shown in the association properties as member ends.
+			To add the association to the diagram, you can simply drag it from the Model Explorer and drop it into the diagram area.
+		</description>
+	</subitem>
+</item>
+<item title="Continue Modeling">
+	<description>
+		Continue creating children and relationships until you are satisified.
+	</description>
+</item>
+<item skip="true" title="More Information" href="/org.eclipse.papyrus.uml.doc/target/generated-eclipse-help/PapyrusStarterGuide.html">
+	<description>
+		You can find more information about the different topics in the Help. You can trigger the help by selecting &apos;Help Contents&apos; in the &apos;Help&apos; menu or by clicking on the Help symbol in specific places.<br/>
+		
+		For instance, clicking on the help symbol of this step opens 'Papyrus Getting Started' guide that holds more information about various topics discussed in this tutorial.
+	</description>
+	<command required="false"
+		serialization="org.eclipse.ui.help.helpContents"/>
+</item>
+<item skip="true" title="Example: Project Management">
+	<description>
+		To further investigate the modeling capabilities of Papyrus Information Modeling, you can import the Project Management example. This example demonstrates how the different modeling concepts can be used and how information can be split across multiple models.
+	</description>
+	<command required="false"
+		serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement)"/>
+</item>
+</cheatsheet>

@@ -2,30 +2,38 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         point="org.eclipse.emf.common.ui.examples">
-      <example
-            id="org.eclipse.papyrus.information.modeling.examples.projectmanagement"
-            wizardID="org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement">
-         <projectDescriptor
-               contentURI="ProjectManagement/"
-               description="This is description"
-               name="ProjectManagement">
-         </projectDescriptor>
-      </example>
-   </extension>
-   <extension
          point="org.eclipse.ui.newWizards">
-      <wizard
-            class="org.eclipse.emf.common.ui.wizard.ExampleInstallerWizard"
-            icon="icons/papyrus.png"
-            id="org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement"
-            name="Project Management Model">
-      </wizard>
       <category
             id="org.eclipse.papyrus.information.modeling.examples.category"
             name="Papyrus Information Modeling"
             parentCategory="org.eclipse.ui.Examples">
       </category>
+      <wizard
+            canFinishEarly="true"
+            category="org.eclipse.papyrus.information.modeling.examples.category"
+            class="org.eclipse.emf.common.ui.wizard.ExampleInstallerWizard"
+            finalPerspective="org.eclipse.papyrus.infra.core.perspective"
+            icon="icons/PapyrusLogo_16x16.png"
+            id="org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement"
+            name="Project Management Model"
+            project="true">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.emf.common.ui.examples">
+      <example
+            id="org.eclipse.papyrus.information.modeling.examples.projectmanagement"
+            pageImage="icons/PapyrusLogo_48x48.png"
+            wizardID="org.eclipse.papyrus.information.modeling.examples.wizard.projectmanagement">
+         <projectDescriptor
+               contentURI="ProjectManagement/"
+               description="This project contains an example model for project management."
+               name="ProjectManagement">
+         </projectDescriptor>
+         <fileToOpen
+               location="ProjectManagement/ProjectManagement.di">
+         </fileToOpen>
+      </example>
    </extension>
 
 </plugin>

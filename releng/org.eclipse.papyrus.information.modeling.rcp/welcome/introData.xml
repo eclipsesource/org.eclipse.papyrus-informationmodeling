@@ -6,9 +6,9 @@
       <group path="page-content/bottom-right" default="true">
       </group>
       <group path="page-content/top-left">
-         <extension id="org.eclipse.ui.workbench" importance="low"/>
          <extension id="org.eclipse.papyrus.information.modeling.intro.overview" importance="high"/>
          <extension id="org.eclipse.egit" importance="low"/>
+         <extension id="org.eclipse.ui.workbench" importance="low"/>
       </group>
       <hidden>         <extension id="org.eclipse.jdt" importance="low"/>
          <extension id="org.eclipse.papyrus.infra.discovery" importance="low"/>
@@ -57,10 +57,11 @@
       <group path="page-content/bottom-right" default="true">
       </group>
       <group path="page-content/top-left">
-         <extension id="org.eclipse.pde.workbench" importance="low"/>
+         <extension id="org.eclipse.papyrus.information.modeling.intro.samples" importance="low"/>
       </group>
-      <hidden>         <extension id="org.eclipse.jdt" importance="low"/>
-         <extension id="org.eclipse.pde.swt" importance="low"/>
+      <hidden>         <extension id="org.eclipse.pde.swt" importance="low"/>
+         <extension id="org.eclipse.jdt" importance="low"/>
+         <extension id="org.eclipse.pde.workbench" importance="low"/>
       </hidden>
    </page>
    <page id="migrate">

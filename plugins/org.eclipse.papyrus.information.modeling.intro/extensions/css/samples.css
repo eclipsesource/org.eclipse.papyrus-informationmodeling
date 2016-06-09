@@ -1,8 +1,8 @@
-a#im-tutorial-getting-started img { 
+a#im-sample-project-management img { 
 	background-image : url(../../images/papyrus.png);
 }
 
-a#im-tutorial-getting-started:hover img { 
+a#im-sample-project-management:hover img { 
 	background-image : url(../../images/papyrus_hover.png);
 }
 

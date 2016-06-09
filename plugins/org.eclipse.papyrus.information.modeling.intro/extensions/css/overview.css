@@ -1,7 +1,11 @@
-a#im-new-project img { 
-	background-image : url(../../images/topiclabel/papyrus.png);
+a#im-help-class-diagrams img,
+a#im-help-papyrus img,
+a#im-help-profiles img { 
+	background-image : url(../../images/papyrus.png);
 }
 
-a#im-new-project:hover img { 
+a#im-help-class-diagrams:hover img,
+a#im-help-papyrus:hover img,
+a#im-help-profiles:hover img { 
 	background-image : url(../../images/papyrus_hover.png);
 }
