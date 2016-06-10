@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+/**
+ * Color combinations (fill and border)
+ * ------------------------------------
+ * yellow:    #FFFDDB and #FFEA00
+ * orange:    #FFF0D6 and #FFA200
+ * red:       #FFEBF1 and #DB1A54
+ * blue:      #EDFBFF and #109DC4
+ * turquoise: #EDFFFE and #10C4AD
+ * green:     #EDFFF0 and #10C452
+ * lightgray: #F2F8FA and #A9C8D4
+ */
+
 * {
 	gradient: none;
 	transparency: 0;
@@ -12,51 +24,29 @@
 	radiusHeight: 4px;
 }
 
-InstanceSpecification {
-	fillColor: #EDFFFE;
-	lineColor: #10C4AD;	
-}
-
-AssociationClass > Compartment,
-Class > Compartment,
-DataType > Compartment {
-	visible: false;
-}
-
-AssociationClass > Compartment[kind="attributes"],
-Class > Compartment[kind="attributes"],
-DataType > Compartment[kind="attributes"] {
-    visible: true;
-    showTitle: false;
-}
-
 Comment {
 	fillColor: #FFFDDB;
+	lineColor: #FFEA00;
 	shadow: false;
-	fontSize: 5px;
 }
 
 Constraint {
 	fillColor: #FFEBF1;
-	lineColor: #FFEBF1;
+	lineColor: #DB1A54;
 	shadow: false;
 }
 
 AssociationClass,
 Class,
-DataType {
+DataType,
+Enumeration {
 	fillColor: #EDFBFF;
 	lineColor: #109DC4;
 }
 
-Enumeration {
-	fillColor: #FFF0D6;
-	lineColor: #FFA200;
-}
-
-TBD {
-	fillColor: #EDFFF0;
-	lineColor: #10C452;
+/* Line between member end classes should be black, we but can only style complete AssociationClass */
+AssociationClass {
+	lineColor: #000000;
 }
 
 Package {
@@ -64,43 +54,45 @@ Package {
 	lineColor: #A9C8D4;
 }
 
-Property {
-	elementIcon: true;
-	maskLabel: name type multiplicity;
+InstanceSpecification {
+	fillColor: #EDFFFE;
+	lineColor: #10C4AD;	
 }
 
-Slot {
-	elementIcon: true;
+/* hide compartments by default */
+AssociationClass > Compartment,
+Class > Compartment,
+DataType > Compartment {
+	visible: false;
+}
+
+/* show attribute compartment without title */
+AssociationClass > Compartment[kind="attributes"],
+Class > Compartment[kind="attributes"],
+DataType > Compartment[kind="attributes"] {
+    visible: true;
+    showTitle: false;
+}
+
+Property {
+	maskLabel: name type multiplicity;
 }
 
 Association > Label {
 	elementIcon: false;
 }
 
-Association > Label:sourceMultiplicity {
-	maskLabel: multiplicity;
-}
-
+Association > Label:sourceMultiplicity,
 Association > Label:targetMultiplicity {
 	maskLabel: multiplicity;
 }
  
-Association > Label:sourceRole {
-	maskLabel: name;
-}
-
+Association > Label:sourceRole,
 Association > Label:targetRole {
 	maskLabel: name;
 }
 
-Association > Label:name {
-	visible:false;
-}
-
-AssociationClass {
-	lineColor: black;
-}
-
-Usage {
-	lineStyle: dashed;
+Association > Label:name,
+Usage > Label {
+	visible: false;
 }
