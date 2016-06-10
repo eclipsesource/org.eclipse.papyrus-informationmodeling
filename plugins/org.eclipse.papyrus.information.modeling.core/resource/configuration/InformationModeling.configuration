@@ -28,13 +28,18 @@
       <paletteRules xmi:id="_i7p0IB3ZEeaWluI_M9CcJQ" element="clazz.tool.association"/>
       <paletteRules xmi:id="_JaaZEB3aEeaWluI_M9CcJQ" element="clazz.tool.dependency"/>
       <paletteRules xmi:id="_J3Yo8B3aEeaWluI_M9CcJQ" element="clazz.tool.usage"/>
+      <paletteRules xmi:id="_zzf4fHDtEeWh-MssWmCB_A" element="clazz.tool.link"/>
+      <paletteRules xmi:id="_g5_wIDE6EeaEieL_kl19Ww" element="clazz.tool.contextlink"/>
       <paletteRules xmi:id="_Zu7qEB3SEeaWluI_M9CcJQ" permit="false" element="clazz.tool.*"/>
       <paletteRules xmi:id="_JR-5AB3eEeaWluI_M9CcJQ" permit="false" element="createTimeObservation22CreationTool"/>
       <paletteRules xmi:id="_Ri5mUB3eEeaWluI_M9CcJQ" permit="false" element="createDurationObservation7CreationTool"/>
       <assistantRules xmi:id="_UfCdFC2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape"/>
       <assistantRules xmi:id="_UfCdFS2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape_CN"/>
+      <assistantRules xmi:id="_UfCdFS5REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
       <assistantRules xmi:id="_UfCdEi2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
       <assistantRules xmi:id="_UfCdEy2REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+      <assistantRules xmi:id="_UfCdEi4REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Constraint_ContextEdge"/>
+      <assistantRules xmi:id="_UfCdEy4REeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
       <assistantRules xmi:id="_uaHUcS2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape"/>
       <assistantRules xmi:id="_uaHUci2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape_CN"/>
       <assistantRules xmi:id="_tocm8C2QEeamkv8UzKSY-w" elementTypeID="org.eclipse.papyrus.umldi.Package_ClassDiagram"/>
