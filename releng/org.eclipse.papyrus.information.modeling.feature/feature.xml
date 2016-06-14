@@ -3,7 +3,8 @@
       id="org.eclipse.papyrus.information.modeling.feature"
       label="%featureName"
       version="0.0.1.qualifier"
-      provider-name="%providerName">
+      provider-name="%providerName"
+      plugin="org.eclipse.papyrus.information.modeling.core">
 
    <description url="https://eclipse.org/papyrus/">
       This feature provides a stream-lined product for information modeling based on Papyrus.

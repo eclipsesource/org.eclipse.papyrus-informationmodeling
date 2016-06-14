@@ -32,6 +32,8 @@ The nightly builds can be downloaded for your platform from the following locati
 * [Papyrus Information Modeling based on Eclipse Neon for '''Linux 64bit'''](https://hudson.eclipse.org/papyrus/view/InformationModeling/job/papyrus-informationmodeling-neon/lastSuccessfulBuild/artifact/releng/org.eclipse.papyrus.information.modeling.product/target/products/org.eclipse.papyrus.information.modeling.product-linux.gtk.x86_64.zip)
 * [Papyrus Information Modeling based on Eclipse Neon for '''MacOS X 64bit'''](https://hudson.eclipse.org/papyrus/view/InformationModeling/job/papyrus-informationmodeling-neon/lastSuccessfulBuild/artifact/releng/org.eclipse.papyrus.information.modeling.product/target/products/org.eclipse.papyrus.information.modeling.product-macosx.cocoa.x86_64.tar.gz)
 
+All downloads are provided under the terms and conditions of the [Eclipse Foundation Software User Agreement](https://www.eclipse.org/legal/epl/notice.php) unless otherwise specified.
+
 ### Building the product on your machine ###
 
 Components in this project are built using Maven and its Tycho plugin for the build of Eclipse artifacts.

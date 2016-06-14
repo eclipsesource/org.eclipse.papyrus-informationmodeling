@@ -3,10 +3,11 @@
       id="org.eclipse.papyrus.information.modeling.rcp.feature"
       label="%featureName"
       version="0.0.1.qualifier"
-      provider-name="%providerName">
+      provider-name="%providerName"
+      plugin="org.eclipse.papyrus.information.modeling.rcp">
 
    <description url="https://eclipse.org/papyrus/">
-      This feature enables to create Syml 1.4 model
+      This feature provides a stream-lined product for information modeling based on Papyrus.
    </description>
 
    <copyright url="http://www.eclipse.org/legal/epl-v10.html">
