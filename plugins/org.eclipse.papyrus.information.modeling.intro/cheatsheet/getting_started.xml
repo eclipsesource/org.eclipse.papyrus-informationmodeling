@@ -2,7 +2,7 @@
 <cheatsheet title="Getting Started">      
 <intro>
 	<description>
-		This tutorial introduces the overall UI and concepts of Papyrus Information Modeling and demonstrates how to create a project with a UML class diagram.
+		This tutorial introduces the basic user interface of Papyrus Information Modeling and demonstrates how to create a project with a UML class diagram.
 	</description>
 </intro>
 <item title="Get to know your environment">
@@ -24,7 +24,7 @@
 	<subitem>
 		<description>
 			<b>Project Explorer</b><br/>
-			This explorer shows a list of all projects and files and your workspace.
+			This explorer shows a list of all projects and its contained files in your workspace.
 		</description>
 	</subitem>
 	<subitem>
@@ -44,8 +44,8 @@
 </item>
 <item title="Create a new Papyrus Project" dialog="true">
 	<description>
-		All UML models must be contained in a project. 
-		The Papyrus project wizard allows you to initialize a project with a UML model and automatically opens the respective model editor.<br/>
+		UML models must be contained in a project. 
+		The Papyrus project wizard allows you to initialize a project with a UML model and automatically opens the respective modeling editor.<br/>
 		<br/>
 		To create a new project, you can select 'File' > 'New' > 'Papyrus Project' from the menu or right-click in the Project explorer and select 'New' > 'Papyrus Project'.
 	</description>
@@ -62,7 +62,7 @@
 </item>
 <item title="Inspect the created project content">
 	<description>
-		After creating the model, the model editor is opened automatically with the empty class diagram.
+		After creating the model, the modeling editor is opened automatically with the empty class diagram.
 	</description>
 	<subitem>
 		<description>
@@ -86,7 +86,7 @@
 	<subitem>
 		<description>
 			<b>Palette</b><br/>
-			On the right side of the modeling editor you can find the element palette. 
+			On the right-hand side of the modeling editor you can find the element palette. 
 			You can add a class by clicking the 'Class' element from the 'Nodes' compartment and dropping it on the empty editor area.
 			After the class is created, you are automatically prompted to override the default class name.
 		</description>
@@ -118,7 +118,7 @@
 	<subitem>
 		<description>
 			<b>Palette</b><br/>
-			Using the element palette on the right side of the editor, you can select the 'Association' and then click on the two classes you want to connect.
+			Using the element palette on the right-hand side of the editor, you can select the 'Association' and then click on the two classes you want to connect.
 		</description>
 	</subitem>
 	<subitem>
@@ -152,7 +152,7 @@
 	<description>
 		You can find more information about the different topics in the Help. You can trigger the help by selecting &apos;Help Contents&apos; in the &apos;Help&apos; menu or by clicking on the Help symbol in specific places.<br/>
 		
-		For instance, clicking on the help symbol of this step opens 'Papyrus Getting Started' guide that holds more information about various topics discussed in this tutorial.
+		For instance, clicking on the help symbol of this step opens the 'Papyrus Getting Started' guide that holds more information about various topics discussed in this tutorial.
 	</description>
 	<command required="false"
 		serialization="org.eclipse.ui.help.helpContents"/>

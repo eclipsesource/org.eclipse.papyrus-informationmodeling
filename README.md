@@ -3,7 +3,7 @@ Papyrus Information Modeling is a Papyrus-based modeling product that is customi
 
 ## Code repository ##
 
-The repository is hosted [Eclipse](http://git.eclipse.org/c/papyrus/org.eclipse.papyrus-informationmodeling.git). In addition, there is a clone on [Github](https://github.com/eclipsesource/org.eclipse.papyrus-informationmodeling).
+The repository is hosted at [Eclipse](http://git.eclipse.org/c/papyrus/org.eclipse.papyrus-informationmodeling.git). In addition, there is a clone on [Github](https://github.com/eclipsesource/org.eclipse.papyrus-informationmodeling).
 
 This repository is organized around the logical software components:
 
