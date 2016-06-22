@@ -37,5 +37,19 @@
          point="org.eclipse.papyrus.infra.properties.contexts">
 		<context appliedByDefault="true" contextModel="resource/context/IM-UML.ctx" isCustomizable="true"/>
 	</extension>
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.css.theme">
+      <themeDefinition
+            icon="icons/papyrus.png"
+            id="org.eclipse.papyrus.information.modeling.core.css.im_theme"
+            label="Information Modeling">
+      </themeDefinition>
+      <themeContribution
+            id="org.eclipse.papyrus.information.modeling.core.css.im_theme">
+         <stylesheet
+               stylesheetPath="resource/style/im_style.css">
+         </stylesheet>
+      </themeContribution>
+   </extension>
 
 </plugin>
