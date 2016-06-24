@@ -25,18 +25,14 @@ import org.eclipse.ui.intro.config.IIntroAction;
 import org.eclipse.ui.wizards.IWizardDescriptor;
 
 public class ShowWizardAction implements IIntroAction {
-	private String wizardId;
 
 	@Override
 	public void run(final IIntroSite site, final Properties params) {
-		wizardId = params.getProperty("id");
-		if (wizardId == null) {
-			return;
-		}
-
+		final String wizardId = params.getProperty("id");
 		final IWizardDescriptor descriptor = openWizard(wizardId);
 		if (descriptor == null) {
-			return; // no wizard found
+			// no wizard found
+			return;
 		}
 
 		// close intro
@@ -56,24 +52,39 @@ public class ShowWizardAction implements IIntroAction {
 		}
 	}
 
+	/**
+	 * Initializes the given wizard, if necessary.
+	 * 
+	 * @param wizard
+	 *            wizard to be initialized
+	 * @param site
+	 *            intro site
+	 */
 	protected void initializeWizard(final IWizard wizard, final IIntroSite site) {
 		if (wizard instanceof IWorkbenchWizard) {
 			((IWorkbenchWizard) wizard).init(site.getWorkbenchWindow().getWorkbench(), new StructuredSelection());
 		}
 	}
 
-	private IWizardDescriptor openWizard(final String id) {
+	/**
+	 * Returns the wizard with the given id or null if the given id is null or no wizard with the id can be found.
+	 * 
+	 * @param wizardId
+	 *            wizard id
+	 * @return wizard with given id or null
+	 */
+	private IWizardDescriptor openWizard(final String wizardId) {
 		// First see if this is a "new wizard".
-		IWizardDescriptor descriptor = PlatformUI.getWorkbench().getNewWizardRegistry().findWizard(id);
+		IWizardDescriptor descriptor = PlatformUI.getWorkbench().getNewWizardRegistry().findWizard(wizardId);
 
 		// If not check if it is an "import wizard".
 		if (descriptor == null) {
-			descriptor = PlatformUI.getWorkbench().getImportWizardRegistry().findWizard(id);
+			descriptor = PlatformUI.getWorkbench().getImportWizardRegistry().findWizard(wizardId);
 		}
 
 		// Or maybe an export wizard
 		if (descriptor == null) {
-			descriptor = PlatformUI.getWorkbench().getExportWizardRegistry().findWizard(id);
+			descriptor = PlatformUI.getWorkbench().getExportWizardRegistry().findWizard(wizardId);
 		}
 
 		return descriptor;
