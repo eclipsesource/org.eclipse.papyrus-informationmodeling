@@ -229,6 +229,11 @@
       </activityPatternBinding>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
+            isEqualityPattern="false"
+            pattern="org\.eclipse\.papyrus\.customization\.nattableconfiguration\/.*">
+      </activityPatternBinding>      
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.information.modeling.simplifiedui.hidePapyrus"
             isEqualityPattern="true"
             pattern="org.eclipse.papyrus.customization.nattableconfiguration/org.eclipse.papyrus.infra.nattable.create.configuration.wizard">
       </activityPatternBinding>
