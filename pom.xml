@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.papyrus.information.modeling</groupId>
 	<artifactId>org.eclipse.papyrus.information.modeling.parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.7.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Information Modeling</name>
 	<description>A Papyrus DSML for Information Modeling</description>

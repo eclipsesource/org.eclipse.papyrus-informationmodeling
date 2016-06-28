@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-Localization: plugin
 Bundle-SymbolicName: org.eclipse.papyrus.information.modeling.simplifiedui;singleton:=true
-Bundle-Version: 0.0.1.qualifier
+Bundle-Version: 0.7.0.qualifier
 Bundle-Activator: org.eclipse.papyrus.information.modeling.simplifiedui.Activator
 Require-Bundle: org.eclipse.ui;bundle-version="[3.108.0,4.0.0)",
  org.eclipse.core.runtime;bundle-version="[3.12.0,4.0.0)",

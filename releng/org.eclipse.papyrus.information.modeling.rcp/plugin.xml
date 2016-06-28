@@ -19,7 +19,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.ui.ide.workbench"
-            description="Papyrus Information Modeling &#x0D;&#x0A;&#x0D;&#x0A;Version: 0.0.1&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright Eclipse contributors and others 2000, 2016.  All rights reserved.&#x0D;&#x0A;Visit http://www.eclipse.org/platform&#x0D;&#x0A;&#x0D;&#x0A;This product includes software developed by the&#x0D;&#x0A;Apache Software Foundation http://www.apache.org/"
+            description="Papyrus Information Modeling &#x0D;&#x0A;&#x0D;&#x0A;Version: 0.7.0&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright Eclipse contributors and others 2000, 2016.  All rights reserved.&#x0D;&#x0A;Visit http://www.eclipse.org/platform&#x0D;&#x0A;&#x0D;&#x0A;This product includes software developed by the&#x0D;&#x0A;Apache Software Foundation http://www.apache.org/"
             name="Papyrus Information Modeling">
          <property name="windowImages" value="icons/papyrus16.png,icons/papyrus32.png,icons/papyrus48.png,icons/papyrus64.png,icons/papyrus128.png"/> 
          <property name="aboutImage" value="icons/papyrus_lg.png"/>
