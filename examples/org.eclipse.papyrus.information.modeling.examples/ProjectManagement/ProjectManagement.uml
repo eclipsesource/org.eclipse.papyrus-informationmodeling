@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_W36joC57EeacqrhFmauLrw" name="ProjectManagement">
-  <ownedComment xmi:type="uml:Comment" xmi:id="_5rNnMC7uEeaQWPj9PM9XcQ">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_5rNnMC7uEeaQWPj9PM9XcQ" annotatedElement="_hdxvEC57EeacqrhFmauLrw _f700IC57EeacqrhFmauLrw">
     <body>&lt;p>Double-click the packages to navigate to their diagrams.&lt;/p>
 </body>
   </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_03gbQC8oEeaDELFt-ELOvw">
-    <body>&lt;p>This diagram gives and overview of all packages in this model and their relationship. Additionally, this diagram also includes an imported package that is located in a different model named DataTypes.&lt;/p>
+    <body>&lt;p>This diagram gives an overview of all packages in this model and their package imports.&lt;/p>
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_GF_JoD1EEeaeMKxSH8FZ1Q">
+    <annotatedElement xmi:type="uml:Package" href="DataTypes.uml#_tzuXACzZEea8G-9zdH7vYw"/>
+    <body>&lt;p>As indicated by the little arrow icon on the upper right-hand side of package &amp;quot;Common&amp;quot;, this package is contained somewhere else and is only&amp;nbsp;shown&amp;nbsp;in this diagram as a shortcut. The package &amp;quot;Common&amp;quot; is in fact located in a different model, called DataTypes, alongside this model.&lt;/p>
+
+&lt;p>Other model resources can be loaded by right-clicking&amp;nbsp;anywhere in the&amp;nbsp;diagram and selecting &amp;quot;Load resource...&amp;quot;.&lt;/p>
 </body>
   </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_W_TlEC57EeacqrhFmauLrw">
@@ -17,6 +24,10 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_dxuUEC57EeacqrhFmauLrw" name="UserManagement">
     <ownedComment xmi:type="uml:Comment" xmi:id="_IvCb0C8oEeaDELFt-ELOvw">
       <body>&lt;p>This diagram shows the contents of the package UserManagement.&lt;/p>
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="__GU5wD1MEeaeMKxSH8FZ1Q" annotatedElement="_7Myq8C57EeacqrhFmauLrw _7Myq-i57EeacqrhFmauLrw">
+      <body>&lt;p>The element &amp;quot;Credentials&amp;quot; is a data type, which is used as a type of a property in class User.&lt;/p>
 </body>
     </ownedComment>
     <packagedElement xmi:type="uml:Class" xmi:id="_7MyD4C57EeacqrhFmauLrw" name="Group">
@@ -113,7 +124,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CRh_YC6EEeacqrhFmauLrw" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_GHhZgC6EEeacqrhFmauLrw" name="path" visibility="public">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N64oIC6EEeacqrhFmauLrw" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N7GDgC6EEeacqrhFmauLrw" value="1"/>
       </ownedAttribute>
@@ -279,12 +290,16 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_hdxvEC57EeacqrhFmauLrw" name="ProductPlanning">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_hjZiwC8nEeaDELFt-ELOvw">
-      <body>&lt;p>The class User has actually been defined in UserManagement, but is shown here too. Additionally, a hyperlink has been set, to allow navigating to the diagram UserManagement.&lt;/p>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_hjZiwC8nEeaDELFt-ELOvw" annotatedElement="_7Myq-i57EeacqrhFmauLrw">
+      <body>&lt;p>The class User has actually been defined in the package &amp;quot;UserManagement&amp;quot;, but is shown here too. Note that the shape representing this class does not show all details, such as the properties of User. Double-click the class User, to navigate to the diagram UserManagement, where it is shown with all its properties.&lt;/p>
 </body>
     </ownedComment>
     <ownedComment xmi:type="uml:Comment" xmi:id="_PB4S4C8oEeaDELFt-ELOvw">
-      <body>&lt;p>This diagram shows the contents of the package ProductPlanning and the used class User, which is actually located in package UserManagement.&lt;/p>
+      <body>&lt;p>This diagram shows the contents of the package ProductPlanning.&lt;/p>
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_QrwC4D1OEeaeMKxSH8FZ1Q" annotatedElement="_H9FtoC58EeacqrhFmauLrw">
+      <body>&lt;p>The data type &amp;quot;Estimate&amp;quot; is defined in the imported external model called DataTypes.&lt;/p>
 </body>
     </ownedComment>
     <packageImport xmi:type="uml:PackageImport" xmi:id="_xANiMC57EeacqrhFmauLrw">

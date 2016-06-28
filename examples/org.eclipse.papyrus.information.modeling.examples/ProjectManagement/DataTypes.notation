@@ -33,7 +33,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_im7bZizBEeaEGtvmx1EULw"/>
         </children>
         <element xmi:type="uml:DataType" href="DataTypes.uml#_im60QSzBEeaEGtvmx1EULw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_im7baizBEeaEGtvmx1EULw" x="14" y="10" width="161"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_im7baizBEeaEGtvmx1EULw" x="14" y="10" width="160" height="120"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_nOzOUC6CEeacqrhFmauLrw" type="DataType_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_nOzOUi6CEeacqrhFmauLrw" type="DataType_NameLabel_CN"/>
@@ -61,7 +61,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nOz1aS6CEeacqrhFmauLrw"/>
         </children>
         <element xmi:type="uml:DataType" href="DataTypes.uml#_nOwLAC6CEeacqrhFmauLrw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nOzOUS6CEeacqrhFmauLrw" x="194" y="10" width="133"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nOzOUS6CEeacqrhFmauLrw" x="194" y="10" width="133" height="120"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_yf6WMC6CEeacqrhFmauLrw" type="DataType_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_yf6WMS6CEeacqrhFmauLrw" type="DataType_NameLabel_CN"/>
@@ -89,7 +89,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yf6WQS6CEeacqrhFmauLrw"/>
         </children>
         <element xmi:type="uml:DataType" href="DataTypes.uml#_yf5IEC6CEeacqrhFmauLrw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yf6WRS6CEeacqrhFmauLrw" x="346" y="10" width="133"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yf6WRS6CEeacqrhFmauLrw" x="346" y="10" width="133" height="120"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_8SrQwC6CEeacqrhFmauLrw" type="Enumeration_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_8Sr30C6CEeacqrhFmauLrw" type="Enumeration_NameLabel_CN"/>
@@ -121,7 +121,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tz0doyzZEea8G-9zdH7vYw"/>
     </children>
     <element xmi:type="uml:Package" href="DataTypes.uml#_tzuXACzZEea8G-9zdH7vYw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tzz2kSzZEea8G-9zdH7vYw" x="20" y="16" width="622" height="175"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tzz2kSzZEea8G-9zdH7vYw" x="20" y="16" width="633" height="184"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_g4tmASzBEeaEGtvmx1EULw" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_g4tmAizBEeaEGtvmx1EULw"/>
