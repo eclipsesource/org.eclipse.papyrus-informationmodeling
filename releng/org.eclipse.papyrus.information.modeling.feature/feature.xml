@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.papyrus.information.modeling.feature"
       label="%featureName"
-      version="0.7.0.qualifier"
+      version="0.7.0"
       provider-name="%providerName"
       plugin="org.eclipse.papyrus.information.modeling.core">
 

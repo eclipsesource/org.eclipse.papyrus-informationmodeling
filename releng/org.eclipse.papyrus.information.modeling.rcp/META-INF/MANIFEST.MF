@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-Description: %Bundle-Description
 Bundle-SymbolicName: org.eclipse.papyrus.information.modeling.rcp;singleton:=true
-Bundle-Version: 0.7.0.qualifier
+Bundle-Version: 0.7.0
 Bundle-Vendor: %Bundle-Vendor
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin

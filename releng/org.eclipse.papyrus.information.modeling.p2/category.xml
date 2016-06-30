@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.papyrus.information.modeling.feature_0.7.0.qualifier.jar" id="org.eclipse.papyrus.information.modeling.feature" version="0.7.0.qualifier">
+   <feature url="features/org.eclipse.papyrus.information.modeling.feature_0.7.0.jar" id="org.eclipse.papyrus.information.modeling.feature" version="0.7.0">
       <category name="org.eclipse.papyrus.information.modeling.category"/>
    </feature>
-   <feature url="features/org.eclipse.papyrus.information.modeling.feature.source_0.7.0.qualifier.jar" id="org.eclipse.papyrus.information.modeling.feature.source" version="0.7.0.qualifier">
+   <feature url="features/org.eclipse.papyrus.information.modeling.feature.source_0.7.0.jar" id="org.eclipse.papyrus.information.modeling.feature.source" version="0.7.0">
       <category name="org.eclipse.papyrus.information.modeling.category"/>
    </feature>
    <category-def name="org.eclipse.papyrus.information.modeling.category" label="Papyrus Information Modeling">
