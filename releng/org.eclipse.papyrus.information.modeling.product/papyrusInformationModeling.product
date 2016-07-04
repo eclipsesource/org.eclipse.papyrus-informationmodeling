@@ -4,7 +4,7 @@
 <product name="Papyrus Information Modeling" uid="org.eclipse.papyrus.information.modeling.product" id="org.eclipse.papyrus.information.modeling.rcp.product" application="org.eclipse.ui.ide.workbench" version="0.7.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/org.eclipse.papyrus.information.modeling.rcp/icons/papyrus_lg.png"/>
+      <image path="/org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM.png"/>
       <text>
          Papyrus Information Modeling
 
@@ -28,11 +28,11 @@ Apache Software Foundation http://www.apache.org/
       </vmArgs>
       <vmArgsLin>-Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
       </vmArgsLin>
-      <vmArgsMac>-Xdock:icon=../Resources/papyrus.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      <vmArgsMac>-Xdock:icon=../Resources/PapyrusIM.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/org.eclipse.papyrus.information.modeling.rcp/icons/papyrus16.png" i32="/org.eclipse.papyrus.information.modeling.rcp/icons/papyrus32.png" i48="/org.eclipse.papyrus.information.modeling.rcp/icons/papyrus48.png" i64="/org.eclipse.papyrus.information.modeling.rcp/icons/papyrus64.png" i128="/org.eclipse.papyrus.information.modeling.rcp/icons/papyrus128.png"/>
+   <windowImages i16="/org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM16.png" i32="/org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM32.png" i48="/org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM48.png" i64="/org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM64.png" i128="/org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM128.png"/>
 
    <splash
       location="org.eclipse.papyrus.information.modeling.rcp"
@@ -40,11 +40,11 @@ Apache Software Foundation http://www.apache.org/
       startupMessageRect="7,4,445,16"
       startupForegroundColor="9C9E9F" />
    <launcher name="papyrus-im">
-      <linux icon="../org.eclipse.papyrus.information.modeling.rcp/icons/icon.xpm"/>
-      <macosx icon="../org.eclipse.papyrus.information.modeling.rcp/icons/papyrus.icns"/>
+      <linux icon="../org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM.xpm"/>
+      <macosx icon="../org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM.icns"/>
       <solaris/>
       <win useIco="true">
-         <ico path="../org.eclipse.papyrus.information.modeling.rcp/icons/papyrus.ico"/>
+         <ico path="../org.eclipse.papyrus.information.modeling.rcp/icons/PapyrusIM.ico"/>
          <bmp/>
       </win>
    </launcher>
