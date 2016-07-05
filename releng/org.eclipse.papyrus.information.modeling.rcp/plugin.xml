@@ -29,7 +29,7 @@
          </property>
          <property
               name="introBrandingImage"
-              value="product:icons/PapyrusIM.svg"/>
+              value="product:icons/PapyrusIMIntro.svg"/>
          <property
                name="introTitle"
                value="Welcome to Papyrus Information Modeling">
