@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-Description: %Bundle-Description
 Bundle-Localization: plugin
 Bundle-SymbolicName: org.eclipse.papyrus.information.modeling.core;singleton:=true
-Bundle-Version: 0.7.0
+Bundle-Version: 0.7.1.qualifier
 Bundle-Activator: org.eclipse.papyrus.information.modeling.core.Activator
 Bundle-Vendor: %Bundle-Vendor
 Require-Bundle: org.eclipse.ui;bundle-version="[3.108.0,4.0.0)",

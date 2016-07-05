@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.eclipse.papyrus.information.modeling</groupId>
 		<artifactId>org.eclipse.papyrus.information.modeling.targetplatform</artifactId>
-		<version>0.7.0</version>
+		<version>0.7.1-SNAPSHOT</version>
 	</parent>	
 	<artifactId>org.eclipse.papyrus.information.modeling.targetplatform.neon</artifactId>
 	<packaging>eclipse-target-definition</packaging>

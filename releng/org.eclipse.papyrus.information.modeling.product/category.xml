@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.papyrus.information.modeling.feature_0.7.0.jar" id="org.eclipse.papyrus.information.modeling.feature" version="0.7.0"/>
+   <feature url="features/org.eclipse.papyrus.information.modeling.feature_0.7.1.qualifier.jar" id="org.eclipse.papyrus.information.modeling.feature" version="0.7.1.qualifier"/>
 </site>
