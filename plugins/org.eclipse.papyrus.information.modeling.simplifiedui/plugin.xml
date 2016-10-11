@@ -442,4 +442,30 @@
        </hiddenToolBarItem>
     </perspectiveExtension>
  </extension>
+ 
+    <extension
+         point="org.eclipse.ui.navigator.viewer">
+      <viewerActionBinding
+            viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <actionExtension
+                  pattern="org.eclipse.papyrus.information.modeling.simplifiedui.navigator.*">
+            </actionExtension>
+         </includes>
+      </viewerActionBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.navigator.navigatorContent">
+      <actionProvider
+            class="org.eclipse.papyrus.information.modeling.simplifiedui.navigator.PackageExplorerOpenActionProvider"
+            id="org.eclipse.papyrus.information.modeling.simplifiedui.navigator.actions.PackageExplorerOpenActionProvider"
+            overrides="org.eclipse.jdt.ui.navigator.actions.OpenActions">
+            <enablement>
+		         <or>
+		            <instanceof 
+		                  	value="org.eclipse.core.resources.IFile" /> 
+		         </or>
+         </enablement>
+      </actionProvider>
+   </extension>
 </plugin>
